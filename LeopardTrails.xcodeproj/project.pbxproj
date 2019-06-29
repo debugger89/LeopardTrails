@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7E5DC26A1C0EA2067240641 /* Pods_LeopardTrails.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CF702D4CE2858B68ED80E3 /* Pods_LeopardTrails.framework */; };
+		C8BFCF6E22C6150400D4ED34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BFCF6D22C6150400D4ED34 /* AppDelegate.swift */; };
+		C8BFCF7022C6150400D4ED34 /* LepordCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BFCF6F22C6150400D4ED34 /* LepordCameraViewController.swift */; };
+		C8BFCF7322C6150400D4ED34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8BFCF7122C6150400D4ED34 /* Main.storyboard */; };
+		C8BFCF7522C6150600D4ED34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8BFCF7422C6150600D4ED34 /* Assets.xcassets */; };
+		C8BFCF7822C6150600D4ED34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8BFCF7622C6150600D4ED34 /* LaunchScreen.storyboard */; };
+		C8BFCF8422C6347300D4ED34 /* ProcessImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BFCF8322C6347300D4ED34 /* ProcessImageController.swift */; };
+		C8BFCF8D22C6530E00D4ED34 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8BFCF8C22C6530D00D4ED34 /* opencv2.framework */; };
+		C8BFCF8F22C6532300D4ED34 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8BFCF8E22C6532300D4ED34 /* Accelerate.framework */; };
+		C8BFCF9122C6532A00D4ED34 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8BFCF9022C6532A00D4ED34 /* AssetsLibrary.framework */; };
+		C8BFCF9322C6533500D4ED34 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8BFCF9222C6533500D4ED34 /* CoreFoundation.framework */; };
+		C8BFCF9522C6534500D4ED34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8BFCF9422C6534500D4ED34 /* CoreGraphics.framework */; };
+		C8BFCF9722C6534F00D4ED34 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8BFCF9622C6534F00D4ED34 /* CoreMedia.framework */; };
+		C8BFCF9C22C65FAB00D4ED34 /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = C8BFCF9A22C65FAB00D4ED34 /* OpenCVWrapper.mm */; };
+		C8BFCF9E22C6640900D4ED34 /* IdImages in Resources */ = {isa = PBXBuildFile; fileRef = C8BFCF9D22C6640900D4ED34 /* IdImages */; };
+		C8BFCFA122C68F3C00D4ED34 /* id_map.json in Resources */ = {isa = PBXBuildFile; fileRef = C8BFCFA022C68F3C00D4ED34 /* id_map.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08CF702D4CE2858B68ED80E3 /* Pods_LeopardTrails.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeopardTrails.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C43F089EE34DE43DD7ACF5C /* Pods-LeopardTrails.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeopardTrails.debug.xcconfig"; path = "Target Support Files/Pods-LeopardTrails/Pods-LeopardTrails.debug.xcconfig"; sourceTree = "<group>"; };
+		44C539CC160ABD223ECB6B28 /* Pods-LeopardTrails.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeopardTrails.release.xcconfig"; path = "Target Support Files/Pods-LeopardTrails/Pods-LeopardTrails.release.xcconfig"; sourceTree = "<group>"; };
+		C8BFCF6A22C6150400D4ED34 /* LeopardTrails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeopardTrails.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8BFCF6D22C6150400D4ED34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8BFCF6F22C6150400D4ED34 /* LepordCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LepordCameraViewController.swift; sourceTree = "<group>"; };
+		C8BFCF7222C6150400D4ED34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8BFCF7422C6150600D4ED34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8BFCF7722C6150600D4ED34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8BFCF7922C6150600D4ED34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8BFCF8322C6347300D4ED34 /* ProcessImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessImageController.swift; sourceTree = "<group>"; };
+		C8BFCF8C22C6530D00D4ED34 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		C8BFCF8E22C6532300D4ED34 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		C8BFCF9022C6532A00D4ED34 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		C8BFCF9222C6533500D4ED34 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C8BFCF9422C6534500D4ED34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C8BFCF9622C6534F00D4ED34 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C8BFCF9822C65FAA00D4ED34 /* LeopardTrails-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeopardTrails-Bridging-Header.h"; sourceTree = "<group>"; };
+		C8BFCF9922C65FAB00D4ED34 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C8BFCF9A22C65FAB00D4ED34 /* OpenCVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		C8BFCF9B22C65FAB00D4ED34 /* OpenCVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		C8BFCF9D22C6640900D4ED34 /* IdImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = IdImages; sourceTree = "<group>"; };
+		C8BFCFA022C68F3C00D4ED34 /* id_map.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = id_map.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8BFCF6722C6150400D4ED34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BFCF9722C6534F00D4ED34 /* CoreMedia.framework in Frameworks */,
+				C8BFCF9522C6534500D4ED34 /* CoreGraphics.framework in Frameworks */,
+				C8BFCF9322C6533500D4ED34 /* CoreFoundation.framework in Frameworks */,
+				C8BFCF9122C6532A00D4ED34 /* AssetsLibrary.framework in Frameworks */,
+				C8BFCF8F22C6532300D4ED34 /* Accelerate.framework in Frameworks */,
+				C8BFCF8D22C6530E00D4ED34 /* opencv2.framework in Frameworks */,
+				C7E5DC26A1C0EA2067240641 /* Pods_LeopardTrails.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1942A482B5DD512D52778AE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8BFCF9622C6534F00D4ED34 /* CoreMedia.framework */,
+				C8BFCF9422C6534500D4ED34 /* CoreGraphics.framework */,
+				C8BFCF9222C6533500D4ED34 /* CoreFoundation.framework */,
+				C8BFCF9022C6532A00D4ED34 /* AssetsLibrary.framework */,
+				C8BFCF8E22C6532300D4ED34 /* Accelerate.framework */,
+				C8BFCF8C22C6530D00D4ED34 /* opencv2.framework */,
+				08CF702D4CE2858B68ED80E3 /* Pods_LeopardTrails.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		798208D70E176048D171067E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C43F089EE34DE43DD7ACF5C /* Pods-LeopardTrails.debug.xcconfig */,
+				44C539CC160ABD223ECB6B28 /* Pods-LeopardTrails.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C8BFCF6122C6150400D4ED34 = {
+			isa = PBXGroup;
+			children = (
+				C8BFCF9F22C68DEF00D4ED34 /* IdCache */,
+				C8BFCF8522C651FD00D4ED34 /* OpenCV */,
+				C8BFCF6C22C6150400D4ED34 /* LeopardTrails */,
+				C8BFCF6B22C6150400D4ED34 /* Products */,
+				798208D70E176048D171067E /* Pods */,
+				1942A482B5DD512D52778AE5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C8BFCF6B22C6150400D4ED34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8BFCF6A22C6150400D4ED34 /* LeopardTrails.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8BFCF6C22C6150400D4ED34 /* LeopardTrails */ = {
+			isa = PBXGroup;
+			children = (
+				C8BFCF6D22C6150400D4ED34 /* AppDelegate.swift */,
+				C8BFCF6F22C6150400D4ED34 /* LepordCameraViewController.swift */,
+				C8BFCF8322C6347300D4ED34 /* ProcessImageController.swift */,
+				C8BFCF7122C6150400D4ED34 /* Main.storyboard */,
+				C8BFCF7422C6150600D4ED34 /* Assets.xcassets */,
+				C8BFCF7622C6150600D4ED34 /* LaunchScreen.storyboard */,
+				C8BFCF7922C6150600D4ED34 /* Info.plist */,
+			);
+			path = LeopardTrails;
+			sourceTree = "<group>";
+		};
+		C8BFCF8522C651FD00D4ED34 /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				C8BFCF9B22C65FAB00D4ED34 /* OpenCVWrapper.h */,
+				C8BFCF9A22C65FAB00D4ED34 /* OpenCVWrapper.mm */,
+				C8BFCF9922C65FAB00D4ED34 /* PrefixHeader.pch */,
+				C8BFCF9822C65FAA00D4ED34 /* LeopardTrails-Bridging-Header.h */,
+			);
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+		C8BFCF9F22C68DEF00D4ED34 /* IdCache */ = {
+			isa = PBXGroup;
+			children = (
+				C8BFCF9D22C6640900D4ED34 /* IdImages */,
+				C8BFCFA022C68F3C00D4ED34 /* id_map.json */,
+			);
+			path = IdCache;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8BFCF6922C6150400D4ED34 /* LeopardTrails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8BFCF7C22C6150600D4ED34 /* Build configuration list for PBXNativeTarget "LeopardTrails" */;
+			buildPhases = (
+				91CB11549BE2870D793154DD /* [CP] Check Pods Manifest.lock */,
+				C8BFCF6622C6150400D4ED34 /* Sources */,
+				C8BFCF6722C6150400D4ED34 /* Frameworks */,
+				C8BFCF6822C6150400D4ED34 /* Resources */,
+				F29E3EB2179C58D0E9545985 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeopardTrails;
+			productName = LeopardTrails;
+			productReference = C8BFCF6A22C6150400D4ED34 /* LeopardTrails.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8BFCF6222C6150400D4ED34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = debugger;
+				TargetAttributes = {
+					C8BFCF6922C6150400D4ED34 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = C8BFCF6522C6150400D4ED34 /* Build configuration list for PBXProject "LeopardTrails" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8BFCF6122C6150400D4ED34;
+			productRefGroup = C8BFCF6B22C6150400D4ED34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8BFCF6922C6150400D4ED34 /* LeopardTrails */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8BFCF6822C6150400D4ED34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BFCFA122C68F3C00D4ED34 /* id_map.json in Resources */,
+				C8BFCF7822C6150600D4ED34 /* LaunchScreen.storyboard in Resources */,
+				C8BFCF7522C6150600D4ED34 /* Assets.xcassets in Resources */,
+				C8BFCF7322C6150400D4ED34 /* Main.storyboard in Resources */,
+				C8BFCF9E22C6640900D4ED34 /* IdImages in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91CB11549BE2870D793154DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeopardTrails-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F29E3EB2179C58D0E9545985 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeopardTrails/Pods-LeopardTrails-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeopardTrails/Pods-LeopardTrails-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeopardTrails/Pods-LeopardTrails-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8BFCF6622C6150400D4ED34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BFCF9C22C65FAB00D4ED34 /* OpenCVWrapper.mm in Sources */,
+				C8BFCF7022C6150400D4ED34 /* LepordCameraViewController.swift in Sources */,
+				C8BFCF6E22C6150400D4ED34 /* AppDelegate.swift in Sources */,
+				C8BFCF8422C6347300D4ED34 /* ProcessImageController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C8BFCF7122C6150400D4ED34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8BFCF7222C6150400D4ED34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C8BFCF7622C6150600D4ED34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8BFCF7722C6150600D4ED34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8BFCF7A22C6150600D4ED34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8BFCF7B22C6150600D4ED34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8BFCF7D22C6150600D4ED34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C43F089EE34DE43DD7ACF5C /* Pods-LeopardTrails.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LCY7N7647A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ALCameraViewController\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTProgressBar\"",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LeopardTrails/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.debugger89.LeopardTrails;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenCV/LeopardTrails-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8BFCF7E22C6150600D4ED34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44C539CC160ABD223ECB6B28 /* Pods-LeopardTrails.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LCY7N7647A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ALCameraViewController\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTProgressBar\"",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LeopardTrails/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.debugger89.LeopardTrails;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OpenCV/LeopardTrails-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8BFCF6522C6150400D4ED34 /* Build configuration list for PBXProject "LeopardTrails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8BFCF7A22C6150600D4ED34 /* Debug */,
+				C8BFCF7B22C6150600D4ED34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8BFCF7C22C6150600D4ED34 /* Build configuration list for PBXNativeTarget "LeopardTrails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8BFCF7D22C6150600D4ED34 /* Debug */,
+				C8BFCF7E22C6150600D4ED34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8BFCF6222C6150400D4ED34 /* Project object */;
+}
