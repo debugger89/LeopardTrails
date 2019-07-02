@@ -8,79 +8,75 @@
 
 /* Begin PBXBuildFile section */
 		00620E71264E0E954D667CEAD6BD0E99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6249D0DEDE09097FCB7FFE25FCBD3B7 /* UIKit.framework */; };
-		023483EF6721F8033AAC6FA4509B0105 /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901C190986BB2F85300C634D8693BD09 /* PermissionsView.swift */; };
-		030FCBCF4FD8CD3905C39EDA654D29BD /* PopupDialogDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7190FCCF1CE9572A322A528BE78C0F40 /* PopupDialogDefaultViewController.swift */; };
-		07D3BAAB9F1D7BA4825DBF8150F78E87 /* CameraView.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B60A8C781E27454B5E32C0A32F7C9AE /* CameraView.strings */; };
-		08452A247B58228DFFC77D7BA30DD668 /* DynamicBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E2E87F2031D260717310910611EBF72 /* DynamicBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0ECC1E5004C894600FA8A271B66DEDE6 /* SingleImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F7AB91F2A26D6A0938B08643E76FBB /* SingleImageFetcher.swift */; };
-		0F82656B116745EE31DB985B8096CD60 /* UIImageView+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE306C4A8C32C36AD4B602666A495401 /* UIImageView+Calculations.swift */; };
-		1140ED5D4474F84751637FFA17351341 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A20B0C9B393FF92828A7D5BE46036D /* ConfirmViewController.swift */; };
-		1390F609CA475A3D940771525DD5DC2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C277DDAFE68A195EDF8E21573219773 /* Foundation.framework */; };
-		169D250E01A497F88370028FD950A37C /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBEDB33C4F7FAC8D8190798AA85A738 /* TransitionAnimator.swift */; };
-		16CE61F77A1F1ACAF8B35B92B624A0D1 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DA6E59CE9530505795C86B210E8F4E /* UIViewExtensions.swift */; };
-		17D127410C33EFA57783E119AE6331FF /* VolumeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B34B59BC8B69CE14565E2355DB600D6 /* VolumeControl.swift */; };
-		18643D4F9BC327B1E5B9175F4260AC0E /* DynamicBlurView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1452756030E6536E5820406A7FACF8E9 /* DynamicBlurView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C14E028D177632DF0B363082E85E536 /* CGImage+Accelerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DCBE08EF6F1301AEC391018F782A5B /* CGImage+Accelerate.swift */; };
-		1C26BD6F12ADF390CC5EF342891F5BDC /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDE34A9D52157AFA6BF5FAFF6C264F0 /* ImageCell.swift */; };
-		225555187BFD67F7F6DADEA6C73C567F /* PopupDialogContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A202C365EB0CE06164DF3529FB557DDF /* PopupDialogContainerView.swift */; };
-		2934478BDB6C711E6313B9E9B712716C /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA167A7AF1D3ADB2EFE709F4BEE342B /* CameraView.swift */; };
-		29DECE041019CE945AAA17EEDB1B3FDB /* CameraViewAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E32D4F2BC3F76DCB450EDC83342C9593 /* CameraViewAssets.xcassets */; };
-		2B387CDEA424D774B669A08EF29299AD /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B026CE06D0065F7B918D9A597C99D50 /* PhotoLibraryViewController.swift */; };
-		2C2BC7EE0BE778C040C5CDE3085C53E0 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C62AF91B0F85BA25ADFFF100F66D26B /* ImageFetcher.swift */; };
-		3141AFA9524FC6CB02F4A51DFC72726C /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4AC9E8380B3E9D6F6F85B69CD315EE /* UILabelExtensions.swift */; };
-		3342A89CA6A25F19E6DC3E5B90073677 /* GTProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD644F7E026158A4B778850BFD67703 /* GTProgressBar-dummy.m */; };
-		37AFD441D3948E62ABBFFBDC662F6DB6 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCB468B6460E8AB316364394509A382 /* UIView+Animations.swift */; };
-		40B948B85F9DD18926F8CE71FE12EF9E /* ALCameraViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1D6A858E62B87460A56AF3899824A36 /* ALCameraViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42414824559FA605DF0EDCD382366DBD /* DynamicBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF3D49F40E4E72E32539DAF530E96D5 /* DynamicBlurView.swift */; };
-		47628893EDED391C4C3D7A8F123B5851 /* HorizontalLabelPositionFrameCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5F0555CDA87618A02A294A3DC07BA4 /* HorizontalLabelPositionFrameCalculator.swift */; };
+		023483EF6721F8033AAC6FA4509B0105 /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C912836EC57315FCC5E14F40FA0A8AF6 /* PermissionsView.swift */; };
+		027C7FA71AAA3C7BD9D865F65E91778B /* TransitionButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 659E01023F036241FC11F6097EECC174 /* TransitionButton-dummy.m */; };
+		030FCBCF4FD8CD3905C39EDA654D29BD /* PopupDialogDefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BED2D64070E03828B41D3E6D19296F /* PopupDialogDefaultViewController.swift */; };
+		07D3BAAB9F1D7BA4825DBF8150F78E87 /* CameraView.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65EAD7734A7BF72DB5F2B2713BB7B11D /* CameraView.strings */; };
+		08452A247B58228DFFC77D7BA30DD668 /* DynamicBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE07B328F29F8D4159F9949F793C6A9 /* DynamicBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ECC1E5004C894600FA8A271B66DEDE6 /* SingleImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A63E38F4AEA70F63224FD8635573D8 /* SingleImageFetcher.swift */; };
+		0F82656B116745EE31DB985B8096CD60 /* UIImageView+Calculations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0078E792E0B575A0993535750470F7 /* UIImageView+Calculations.swift */; };
+		1140ED5D4474F84751637FFA17351341 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1891D398629B500CABFE404EDE7DC262 /* ConfirmViewController.swift */; };
+		169D250E01A497F88370028FD950A37C /* TransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1F0101662D08E2BA26838C0879C7E /* TransitionAnimator.swift */; };
+		17D127410C33EFA57783E119AE6331FF /* VolumeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F773692AE6826E774DA9019A2C3FBD /* VolumeControl.swift */; };
+		18643D4F9BC327B1E5B9175F4260AC0E /* DynamicBlurView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DC9C9ABD6E17C482E30E8A20DF6BABB /* DynamicBlurView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19E396CAE49DE2801ADCB085CA419359 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C277DDAFE68A195EDF8E21573219773 /* Foundation.framework */; };
+		1C14E028D177632DF0B363082E85E536 /* CGImage+Accelerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EEB10009740D802C8F0FE35C4C0213 /* CGImage+Accelerate.swift */; };
+		1C26BD6F12ADF390CC5EF342891F5BDC /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9A7B27E9A06041CE6B1A9BE9E2E74C /* ImageCell.swift */; };
+		225555187BFD67F7F6DADEA6C73C567F /* PopupDialogContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FAF1C1E3A39BCB966DA354F8EF3E63 /* PopupDialogContainerView.swift */; };
+		2934478BDB6C711E6313B9E9B712716C /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453E5EDC886095DFAB0A8EB8C9F7665A /* CameraView.swift */; };
+		29DECE041019CE945AAA17EEDB1B3FDB /* CameraViewAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E43D956FD80BE047E2667A79799C5C7 /* CameraViewAssets.xcassets */; };
+		2B387CDEA424D774B669A08EF29299AD /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217328983C7969FE17DC25FD23BC0624 /* PhotoLibraryViewController.swift */; };
+		2C2BC7EE0BE778C040C5CDE3085C53E0 /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47C9B733B9AABEAD6EAD156B17D4CE1 /* ImageFetcher.swift */; };
+		37AFD441D3948E62ABBFFBDC662F6DB6 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD54C43DF41DDA818B8E5A5B227528C /* UIView+Animations.swift */; };
+		40B948B85F9DD18926F8CE71FE12EF9E /* ALCameraViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA94AFCEFE45448A6F634B25BB35CA4 /* ALCameraViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42414824559FA605DF0EDCD382366DBD /* DynamicBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4333BB9FD55A0E258FCC6E684F3DBE5C /* DynamicBlurView.swift */; };
 		4C6E460A6B911AFFD987F78AC59B7466 /* DynamicBlurView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48605496EA7A8E9439C53C0835B30AC5 /* DynamicBlurView.framework */; };
-		5165DB589723210842E210269D050751 /* CroppingParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE46930EDEC93B531AD8694A6355DD2 /* CroppingParameters.swift */; };
-		5546955AFBE8D354D17380A294A25CE6 /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F34C1D71EA45B58DDA25F0B61A8773 /* PopupDialog.swift */; };
-		58C06A6966CEB4A6585B3C9F47DA97F0 /* GTProgressBarDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A573C1E5273A851FB78FDF65535A6937 /* GTProgressBarDirection.swift */; };
-		5CAA05AD5D60ADF1F7498CFD566B08C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C277DDAFE68A195EDF8E21573219773 /* Foundation.framework */; };
-		5CFACF382D9204F792CB6C931E207DFB /* CameraGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406CD3C593254FE9BBB43C10F9CDA66A /* CameraGlobals.swift */; };
-		6BAE027DD45D7CFC7622AE231E1DCCEE /* GTProgressBarLabelPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3C9950566224677D76611D46C8CB4 /* GTProgressBarLabelPosition.swift */; };
-		73D0683E05F3565AE7175088B7CE6DC0 /* PopupDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB8000B5FA10B6A44303DD19A44EAB /* PopupDialog-dummy.m */; };
-		79918DC57AAD81CF4570747D947D834E /* CropOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B4A7E8FE424353C0FDE3D3AE4AECEB /* CropOverlay.swift */; };
-		7A009CFEBD7D09FB5DA532F54EB9FBEF /* TransitionAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8160A10F544DE74C2E2345F04307AD80 /* TransitionAnimations.swift */; };
-		7B7E89CD84751B5C6682A047F483205A /* CameraShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312FBA4C32899363331767DD51B500A4 /* CameraShot.swift */; };
-		7EBE128BBA4CC34DBF4853B1E747C724 /* DynamicBlurView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABC95094EF3B996BFBCB9DB570A1B76 /* DynamicBlurView-dummy.m */; };
-		81156AE99DEF656F29B13B8176CDC3B5 /* CGContext+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7E93A7B782CB0BA6095F17E415FF6C /* CGContext+CGImage.swift */; };
-		82C29EC20120B3EEF6B867F8B0A7B5AB /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671F3EBC13C05A0561C0E02A227ECEF /* UIButtonExtensions.swift */; };
-		83B9E5412A63412A151E0092BF6AF7CA /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C3D0265BA374F980A935A287CB60F6 /* PresentationManager.swift */; };
-		854FA63BFE263E6D5ED8DDAAC20206CD /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0AA19F481BCFBBA34D09E283922FCB /* UIViewExtensions.swift */; };
-		869A6850C71976FBCEAE6B3B8B4C7C62 /* GTProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986D832E91454E1EEE06C2597FA71972 /* GTProgressBar.swift */; };
-		86F95728A271884544EA8E5BE4C813DB /* CameraViewControllerConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8220ABB7E56F054C9C7E2E582CEBE330 /* CameraViewControllerConstraint.swift */; };
-		8BA8801CA92679EA832FA6D41B1ECECB /* PhotoLibraryAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABFB1B920CFDE4EC9F957B89C3B66AB /* PhotoLibraryAuthorizer.swift */; };
-		928FFA6E7256231E743768EBC78E36A7 /* PopupDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98948F69E826AE39F757CE31C4DEF9BC /* PopupDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9671885B203D6107F57B59FAEF89E1BD /* FrameCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C0DED5610DE4486681B3CF3C79E8DB /* FrameCalculator.swift */; };
+		5165DB589723210842E210269D050751 /* CroppingParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCF6B1712460429A185B4EABA17003D /* CroppingParameters.swift */; };
+		5320B0C3A67FFED5DBE1589F692B7A03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C277DDAFE68A195EDF8E21573219773 /* Foundation.framework */; };
+		5546955AFBE8D354D17380A294A25CE6 /* PopupDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F76154D357A7521F0AAB904B0913BF /* PopupDialog.swift */; };
+		5AB07DD1F6DC27EB173E6107012C7216 /* Pods-LeopardTrails-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84CFEF76AAC22E0ECD46FFF9DF9A1D3D /* Pods-LeopardTrails-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CFACF382D9204F792CB6C931E207DFB /* CameraGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186150F42706D0CEF85520739EB6D1E1 /* CameraGlobals.swift */; };
+		5F4B18C14A0E355E6495D36CA31B07E2 /* TransitionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B24332027265CA77288E22C27B65916 /* TransitionButton.swift */; };
+		5F83DEF0A06BA6E25F409B568AD296C6 /* TransitionButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8FA2C6CF2D7D51D1EA8C29D2E95152 /* TransitionButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B49661FB32AFE2B4B91E3242F9DDE2B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6249D0DEDE09097FCB7FFE25FCBD3B7 /* UIKit.framework */; };
+		6CD744CE23989E0EDCA90B4D68A69B11 /* SpinerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C4433C904741672F64A1BF453C355C /* SpinerLayer.swift */; };
+		73D0683E05F3565AE7175088B7CE6DC0 /* PopupDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6A47AD77EA5F224AFEDCEB516341B8 /* PopupDialog-dummy.m */; };
+		79918DC57AAD81CF4570747D947D834E /* CropOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABBD4856D9B9C43E05F34D16E8DED05 /* CropOverlay.swift */; };
+		7A009CFEBD7D09FB5DA532F54EB9FBEF /* TransitionAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4052A342988190A219FEA3DA69A65BD /* TransitionAnimations.swift */; };
+		7B7E89CD84751B5C6682A047F483205A /* CameraShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9BCF21955224E44997D68DFE294744 /* CameraShot.swift */; };
+		7EBE128BBA4CC34DBF4853B1E747C724 /* DynamicBlurView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA99F8C24AD0DB56B0DB5442B4F9F5C /* DynamicBlurView-dummy.m */; };
+		81156AE99DEF656F29B13B8176CDC3B5 /* CGContext+CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A94EC9B5CADF0335EACADC9F2DC2F0D /* CGContext+CGImage.swift */; };
+		82C29EC20120B3EEF6B867F8B0A7B5AB /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C3D78EDE291288792D2ECF9FC526D /* UIButtonExtensions.swift */; };
+		83B9E5412A63412A151E0092BF6AF7CA /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F1B8AC2D4C3EB939E437DDFA75BDED /* PresentationManager.swift */; };
+		8493869A7A6C202D77C239D038D12C8B /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A331F701565D41E284E6E7C6A5262D22 /* CGRectExtension.swift */; };
+		854FA63BFE263E6D5ED8DDAAC20206CD /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB17C15C6FBC5E2951D1AE7677658EC /* UIViewExtensions.swift */; };
+		86F95728A271884544EA8E5BE4C813DB /* CameraViewControllerConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A8F213DCB86A120C5574C107E496A0 /* CameraViewControllerConstraint.swift */; };
+		8BA8801CA92679EA832FA6D41B1ECECB /* PhotoLibraryAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C107A9A18482C06E6EBEAFC3B36244E /* PhotoLibraryAuthorizer.swift */; };
+		928FFA6E7256231E743768EBC78E36A7 /* PopupDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BB8B59C81520B81D5764E9326A53824 /* PopupDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96D8204B3A36D243904EE9F04BE29ADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C277DDAFE68A195EDF8E21573219773 /* Foundation.framework */; };
-		97AD18CFF3BE6B92432DB0798ACA671D /* Pods-LeopardTrails-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D1EBC5A31A95A147F001FA81055F4C /* Pods-LeopardTrails-dummy.m */; };
 		9B45F788C4CE05D2DC0686432FB0EE22 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698C7792749D8F8A29699C4E3B5CA919 /* Accelerate.framework */; };
-		A254857FE369E684CBE3B4F6F292239D /* PopupDialogDefaultButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B951A38C357B2647EE5BAF525F8A97 /* PopupDialogDefaultButtons.swift */; };
-		A94100505467526DB734FAB115BF715C /* PopupDialogOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE598D8EDB670A275C85F4CE6EBB87 /* PopupDialogOverlayView.swift */; };
-		AAF612F4BD7A82C7D35D65F0C89FD143 /* GTProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A49AA201450E23B3389CB2AFFE18BA39 /* GTProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD8B47A2AA1ADD2A24DE172D30F3999C /* ALCameraViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5156770C70F298D58E2F9F22ACC047 /* ALCameraViewController-dummy.m */; };
-		ADF8489E09D0D4C4BF03C96DF95E2C75 /* ConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECD55A50594D060654419E92CDB83859 /* ConfirmViewController.xib */; };
+		A254857FE369E684CBE3B4F6F292239D /* PopupDialogDefaultButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D60D0ABCBC25CF68A01E590D3316696 /* PopupDialogDefaultButtons.swift */; };
+		A94100505467526DB734FAB115BF715C /* PopupDialogOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D96E5B5E119D68BAB1B0C608E44EF8E /* PopupDialogOverlayView.swift */; };
+		AC9A14805175C5BD7C93CDAED29B45BE /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561552B302A523963470047D2BFD0A1D /* FadeTransition.swift */; };
+		AD8B47A2AA1ADD2A24DE172D30F3999C /* ALCameraViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CC0AAA13E63B1E1B492C676AF0780E /* ALCameraViewController-dummy.m */; };
+		ADF8489E09D0D4C4BF03C96DF95E2C75 /* ConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1552B06E542F47840CC79BAB2FD894F1 /* ConfirmViewController.xib */; };
 		B18FE5EE478D75593AE4D0C6B1E6506F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C277DDAFE68A195EDF8E21573219773 /* Foundation.framework */; };
-		B2F489FB022F836FB35B3FEABF68903C /* PopupDialog+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9954C937B7233A9EEFB641F6E25805F2 /* PopupDialog+Keyboard.swift */; };
-		B52BCD660C0CA96651CA9AEAB5672D7B /* CaptureQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B326F2A53F7ACA260F61F086DB569EC /* CaptureQuality.swift */; };
-		B98226F16B9FE19442ED20B25E9BC33D /* GTProgressBarCornerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCADDFA0653EA68A71452C29271AD61 /* GTProgressBarCornerType.swift */; };
-		BDF1477984864423290760EB72C6A023 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BF2F0A28E3EAE593300FE9791AAA89 /* CameraViewController.swift */; };
-		C08A03032406A24E285B680ACE7A9E73 /* TrackingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5980A922C7CEB8C3209228140EDC77E1 /* TrackingMode.swift */; };
-		C4A7121FFDE59153BE08375B7260C1C6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4EA1E527A1F0BC51950144182EA730 /* Utilities.swift */; };
-		C96F7D98B1232C27A8D70B54A2D463D0 /* Pods-LeopardTrails-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84CFEF76AAC22E0ECD46FFF9DF9A1D3D /* Pods-LeopardTrails-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9D87D93855954B4B23CDB647DEB7D0E /* PopupDialogDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAB4C60D347B9BFF269DC8DA377D75C /* PopupDialogDefaultView.swift */; };
-		D5A01C359677E94FD50841ABEABA5EBF /* VerticalLabelPositionFrameCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8FC7965E6D3F2DF3A7EAF4F51532B0 /* VerticalLabelPositionFrameCalculator.swift */; };
-		D82DC5AAA5AA0E1A33EFE457C493D755 /* UIViewController+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185D810D2350DD3BFFDB523A21A9FEE0 /* UIViewController+Visibility.swift */; };
-		D98EB3C499308BA57D37D2A21157F1A2 /* SingleImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CFDD2A5E9B1939B6CA70F839724FB1 /* SingleImageSaver.swift */; };
-		D9F9E9336475EE7188F8F29DDE0A2EB1 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B8CCC8677F0C41F503B8D2298C870B /* PresentationController.swift */; };
+		B2F489FB022F836FB35B3FEABF68903C /* PopupDialog+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDA1685A178A8BD8FACB65C7FACDE0F /* PopupDialog+Keyboard.swift */; };
+		B52BCD660C0CA96651CA9AEAB5672D7B /* CaptureQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828F1F7B233D8D39EF9B421A2081A4C1 /* CaptureQuality.swift */; };
+		BDF1477984864423290760EB72C6A023 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D937BFF1265DDCFC3C61A31C7361C9B6 /* CameraViewController.swift */; };
+		C08A03032406A24E285B680ACE7A9E73 /* TrackingMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D77F282DFD1361EB9CEE311A7CA112 /* TrackingMode.swift */; };
+		C2F6E646900EED6A1D186A193E4E3C25 /* CustomTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548D13D1A713BC710B6B53330DC78821 /* CustomTransitionViewController.swift */; };
+		C4A7121FFDE59153BE08375B7260C1C6 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997440B4861FA540FFAFB1757112EF1C /* Utilities.swift */; };
+		C9D87D93855954B4B23CDB647DEB7D0E /* PopupDialogDefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BF6D8C7A158E0BB47AF3525D56AA59 /* PopupDialogDefaultView.swift */; };
+		D82DC5AAA5AA0E1A33EFE457C493D755 /* UIViewController+Visibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA61F89F1F9DBBC27BA407AE1B64D89 /* UIViewController+Visibility.swift */; };
+		D98EB3C499308BA57D37D2A21157F1A2 /* SingleImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D42983F5961C10C13D5AF07F6DACB9 /* SingleImageSaver.swift */; };
+		D9F9E9336475EE7188F8F29DDE0A2EB1 /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFA6D3DA0BA917026A5DDE97D0B8C03 /* PresentationController.swift */; };
 		DCEE2E72739ADFB7890C33BC35099C01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C277DDAFE68A195EDF8E21573219773 /* Foundation.framework */; };
-		DD2F32642C7F57A4EE71C41F183FEAC8 /* BlurLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF416934F7B9C2AEF14DCAF15F7D1D55 /* BlurLayer.swift */; };
-		E9157FAB5F209124A32CE9C3BB6B6027 /* UIImage+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52793432A04A477B612F1C6EB1F224C3 /* UIImage+Blur.swift */; };
-		EC78D8A8141D8268D6382866CDF8F16A /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA925DA2221E866CAD69ECEBEA673A /* InteractiveTransition.swift */; };
-		F74CEC08962FE2C8DFE0E70828EFF8CA /* GTProgressBarOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB5AB8AA56CE16C2D7DE4C7C29413E1 /* GTProgressBarOrientation.swift */; };
-		F82E29CC1BF7165FF77D9C4A387357A7 /* PopupDialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D9D709C147F11049665DC8F4710F4C /* PopupDialogButton.swift */; };
+		DD2F32642C7F57A4EE71C41F183FEAC8 /* BlurLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954D5F619FB252032B87EE0AE8F685F1 /* BlurLayer.swift */; };
+		E9157FAB5F209124A32CE9C3BB6B6027 /* UIImage+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86BE1829A1DD8633924CA1D202765103 /* UIImage+Blur.swift */; };
+		EC78D8A8141D8268D6382866CDF8F16A /* InteractiveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190AE8B493CB93813F656BD6B4CF2FA4 /* InteractiveTransition.swift */; };
+		F82E29CC1BF7165FF77D9C4A387357A7 /* PopupDialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A981107BB7EDB8561BA0265AA29910A /* PopupDialogButton.swift */; };
+		FC59C24DC46931A3BC12E00A90802E01 /* Pods-LeopardTrails-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D1EBC5A31A95A147F001FA81055F4C /* Pods-LeopardTrails-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,155 +87,134 @@
 			remoteGlobalIDString = 7D914FA2F03C860D5133BA2DB87C594A;
 			remoteInfo = DynamicBlurView;
 		};
-		7A8F37219B84F2F0311664C9F1FDDF80 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EE515A07ACC0A4FB01FC1FBE347BC45C;
-			remoteInfo = GTProgressBar;
-		};
-		8A38AFF41150D89FB02150A0A03DAE88 /* PBXContainerItemProxy */ = {
+		77E7A7EE460288D612DC4A78E105F2F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3D151B72D5CE9336C8AD8927D077A295;
 			remoteInfo = ALCameraViewController;
 		};
-		AF36E94CD89AC7009958427FD5151DB5 /* PBXContainerItemProxy */ = {
+		787A9D31B5DC3031C8B11302D1582098 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6E71929B582F8CD57B3DC1FD6560F047;
 			remoteInfo = PopupDialog;
 		};
-		EBCE395175BBB658F3150C4B6999BE36 /* PBXContainerItemProxy */ = {
+		8F4B50C4545463BF39FF30398D8524C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7D914FA2F03C860D5133BA2DB87C594A;
 			remoteInfo = DynamicBlurView;
 		};
+		AAA8B9619CF70E5CB3ABFA403A642FC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E30FF5B0268E3027AF18D788DB9BB7E7;
+			remoteInfo = TransitionButton;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		003A23A11E528E55F7EFD18C41084B09 /* DynamicBlurView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DynamicBlurView-Info.plist"; sourceTree = "<group>"; };
 		02168EED8F8F1F29F46DCF212B5279D7 /* Pods-LeopardTrails-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeopardTrails-Info.plist"; sourceTree = "<group>"; };
 		03D1EBC5A31A95A147F001FA81055F4C /* Pods-LeopardTrails-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeopardTrails-dummy.m"; sourceTree = "<group>"; };
-		0B326F2A53F7ACA260F61F086DB569EC /* CaptureQuality.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureQuality.swift; path = DynamicBlurView/CaptureQuality.swift; sourceTree = "<group>"; };
-		0C62AF91B0F85BA25ADFFF100F66D26B /* ImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFetcher.swift; path = ALCameraViewController/Utilities/ImageFetcher.swift; sourceTree = "<group>"; };
-		0EDE34A9D52157AFA6BF5FAFF6C264F0 /* ImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCell.swift; path = ALCameraViewController/Views/ImageCell.swift; sourceTree = "<group>"; };
-		0FAB8000B5FA10B6A44303DD19A44EAB /* PopupDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopupDialog-dummy.m"; sourceTree = "<group>"; };
-		13E48BCEAAF4FCB7E3C1847042927914 /* PopupDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.xcconfig; sourceTree = "<group>"; };
-		1452756030E6536E5820406A7FACF8E9 /* DynamicBlurView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicBlurView-umbrella.h"; sourceTree = "<group>"; };
-		16B6107BEF38C6EA8CD6BC494202E468 /* DynamicBlurView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicBlurView-prefix.pch"; sourceTree = "<group>"; };
+		06F76154D357A7521F0AAB904B0913BF /* PopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialog.swift; path = PopupDialog/Classes/PopupDialog.swift; sourceTree = "<group>"; };
+		097F1E01EC7BB9658BA14151FDB2C81A /* ALCameraViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-prefix.pch"; sourceTree = "<group>"; };
+		12C4433C904741672F64A1BF453C355C /* SpinerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinerLayer.swift; path = Source/SpinerLayer.swift; sourceTree = "<group>"; };
+		1552B06E542F47840CC79BAB2FD894F1 /* ConfirmViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ConfirmViewController.xib; path = ALCameraViewController/ViewController/ConfirmViewController.xib; sourceTree = "<group>"; };
 		17B1945649C671E944053693E1B6DD3A /* Pods-LeopardTrails.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LeopardTrails.modulemap"; sourceTree = "<group>"; };
-		185D810D2350DD3BFFDB523A21A9FEE0 /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Visibility.swift"; path = "PopupDialog/Classes/UIViewController+Visibility.swift"; sourceTree = "<group>"; };
-		1B60A8C781E27454B5E32C0A32F7C9AE /* CameraView.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CameraView.strings; path = ALCameraViewController/CameraView.strings; sourceTree = "<group>"; };
+		186150F42706D0CEF85520739EB6D1E1 /* CameraGlobals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraGlobals.swift; path = ALCameraViewController/Utilities/CameraGlobals.swift; sourceTree = "<group>"; };
+		1891D398629B500CABFE404EDE7DC262 /* ConfirmViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmViewController.swift; path = ALCameraViewController/ViewController/ConfirmViewController.swift; sourceTree = "<group>"; };
+		190AE8B493CB93813F656BD6B4CF2FA4 /* InteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransition.swift; path = PopupDialog/Classes/InteractiveTransition.swift; sourceTree = "<group>"; };
 		1C98E63B77946880AE04E5BF67553EBC /* Pods-LeopardTrails.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeopardTrails.release.xcconfig"; sourceTree = "<group>"; };
-		1E0AA19F481BCFBBA34D09E283922FCB /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = ALCameraViewController/Utilities/UIViewExtensions.swift; sourceTree = "<group>"; };
-		23D9D709C147F11049665DC8F4710F4C /* PopupDialogButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogButton.swift; path = PopupDialog/Classes/PopupDialogButton.swift; sourceTree = "<group>"; };
-		2B34B59BC8B69CE14565E2355DB600D6 /* VolumeControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VolumeControl.swift; path = ALCameraViewController/Utilities/VolumeControl.swift; sourceTree = "<group>"; };
-		312FBA4C32899363331767DD51B500A4 /* CameraShot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraShot.swift; path = ALCameraViewController/Utilities/CameraShot.swift; sourceTree = "<group>"; };
-		3174873BAC84A271B68FC8EB295DB0C2 /* GTProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTProgressBar.framework; path = GTProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		33BCE0FF3CF2937DBB2D6A766D1FBE24 /* GTProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GTProgressBar-Info.plist"; sourceTree = "<group>"; };
+		1DC9C9ABD6E17C482E30E8A20DF6BABB /* DynamicBlurView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicBlurView-umbrella.h"; sourceTree = "<group>"; };
+		1FC2D5479C5D782AA26504C86CC8097C /* TransitionButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TransitionButton-Info.plist"; sourceTree = "<group>"; };
+		217328983C7969FE17DC25FD23BC0624 /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryViewController.swift; path = ALCameraViewController/ViewController/PhotoLibraryViewController.swift; sourceTree = "<group>"; };
+		2331D0FE090D2E755F7D71FDCBDEF1F5 /* PopupDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PopupDialog.xcconfig; sourceTree = "<group>"; };
+		27F773692AE6826E774DA9019A2C3FBD /* VolumeControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VolumeControl.swift; path = ALCameraViewController/Utilities/VolumeControl.swift; sourceTree = "<group>"; };
+		2E43D956FD80BE047E2667A79799C5C7 /* CameraViewAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = CameraViewAssets.xcassets; path = ALCameraViewController/CameraViewAssets.xcassets; sourceTree = "<group>"; };
+		2E99FA8B7F785E5DDBA670CE7DDBB40A /* TransitionButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionButton-prefix.pch"; sourceTree = "<group>"; };
+		2EB7B7CB902611217781392FC2E4A33A /* TransitionButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TransitionButton.modulemap; sourceTree = "<group>"; };
 		34FB964502259D0FF233CE71CFDD2A71 /* PopupDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PopupDialog.framework; path = PopupDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		38AB15DB03AAC4ABB6E10DF24CC360D3 /* ALCameraViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALCameraViewController.xcconfig; sourceTree = "<group>"; };
-		38CFDD2A5E9B1939B6CA70F839724FB1 /* SingleImageSaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageSaver.swift; path = ALCameraViewController/Utilities/SingleImageSaver.swift; sourceTree = "<group>"; };
-		3B5F0555CDA87618A02A294A3DC07BA4 /* HorizontalLabelPositionFrameCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HorizontalLabelPositionFrameCalculator.swift; path = GTProgressBar/Classes/HorizontalLabelPositionFrameCalculator.swift; sourceTree = "<group>"; };
-		3DD644F7E026158A4B778850BFD67703 /* GTProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTProgressBar-dummy.m"; sourceTree = "<group>"; };
-		3F76FD1E5D017EC4B11C9501CF360788 /* ALCameraViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-prefix.pch"; sourceTree = "<group>"; };
+		37EC655BBD274417B4F359F64AED7B5B /* ALCameraViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ALCameraViewController.modulemap; sourceTree = "<group>"; };
+		4002FFC966B97DD05FED4EF7B7D2F38D /* DynamicBlurView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DynamicBlurView-prefix.pch"; sourceTree = "<group>"; };
 		4050AFC14177519056CEF2676C8E6EDF /* Pods-LeopardTrails-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeopardTrails-frameworks.sh"; sourceTree = "<group>"; };
-		406CD3C593254FE9BBB43C10F9CDA66A /* CameraGlobals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraGlobals.swift; path = ALCameraViewController/Utilities/CameraGlobals.swift; sourceTree = "<group>"; };
-		42F7AB91F2A26D6A0938B08643E76FBB /* SingleImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageFetcher.swift; path = ALCameraViewController/Utilities/SingleImageFetcher.swift; sourceTree = "<group>"; };
+		4333BB9FD55A0E258FCC6E684F3DBE5C /* DynamicBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicBlurView.swift; path = DynamicBlurView/DynamicBlurView.swift; sourceTree = "<group>"; };
+		453E5EDC886095DFAB0A8EB8C9F7665A /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = ALCameraViewController/Views/CameraView.swift; sourceTree = "<group>"; };
 		48605496EA7A8E9439C53C0835B30AC5 /* DynamicBlurView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DynamicBlurView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C277DDAFE68A195EDF8E21573219773 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		52793432A04A477B612F1C6EB1F224C3 /* UIImage+Blur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Blur.swift"; path = "DynamicBlurView/UIImage+Blur.swift"; sourceTree = "<group>"; };
-		5980A922C7CEB8C3209228140EDC77E1 /* TrackingMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingMode.swift; path = DynamicBlurView/TrackingMode.swift; sourceTree = "<group>"; };
-		5E2E87F2031D260717310910611EBF72 /* DynamicBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicBlurView.h; path = DynamicBlurView/DynamicBlurView.h; sourceTree = "<group>"; };
+		548D13D1A713BC710B6B53330DC78821 /* CustomTransitionViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTransitionViewController.swift; path = Source/CustomTransitionViewController.swift; sourceTree = "<group>"; };
+		561552B302A523963470047D2BFD0A1D /* FadeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FadeTransition.swift; path = Source/FadeTransition.swift; sourceTree = "<group>"; };
+		564A8E6B0223250CEBEF4FED665450D8 /* DynamicBlurView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DynamicBlurView.modulemap; sourceTree = "<group>"; };
+		5ABBD4856D9B9C43E05F34D16E8DED05 /* CropOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropOverlay.swift; path = ALCameraViewController/Views/CropOverlay.swift; sourceTree = "<group>"; };
+		5B24332027265CA77288E22C27B65916 /* TransitionButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionButton.swift; path = Source/TransitionButton.swift; sourceTree = "<group>"; };
+		5D60D0ABCBC25CF68A01E590D3316696 /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultButtons.swift; path = PopupDialog/Classes/PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
+		5D96E5B5E119D68BAB1B0C608E44EF8E /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogOverlayView.swift; path = PopupDialog/Classes/PopupDialogOverlayView.swift; sourceTree = "<group>"; };
 		5E950635DA0482CAACCAA775DD8A9878 /* Pods_LeopardTrails.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LeopardTrails.framework; path = "Pods-LeopardTrails.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA99F8C24AD0DB56B0DB5442B4F9F5C /* DynamicBlurView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicBlurView-dummy.m"; sourceTree = "<group>"; };
+		5F6BA03A0925860EA21A0CB5F550E9CB /* TransitionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TransitionButton.framework; path = TransitionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D77F282DFD1361EB9CEE311A7CA112 /* TrackingMode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackingMode.swift; path = DynamicBlurView/TrackingMode.swift; sourceTree = "<group>"; };
+		63BED2D64070E03828B41D3E6D19296F /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultViewController.swift; path = PopupDialog/Classes/PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
+		659E01023F036241FC11F6097EECC174 /* TransitionButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TransitionButton-dummy.m"; sourceTree = "<group>"; };
+		65EAD7734A7BF72DB5F2B2713BB7B11D /* CameraView.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CameraView.strings; path = ALCameraViewController/CameraView.strings; sourceTree = "<group>"; };
 		698C7792749D8F8A29699C4E3B5CA919 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
-		6A5258E77D5BDA3AD85958D80A436137 /* PopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-prefix.pch"; sourceTree = "<group>"; };
-		6ABFB1B920CFDE4EC9F957B89C3B66AB /* PhotoLibraryAuthorizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryAuthorizer.swift; path = ALCameraViewController/Utilities/PhotoLibraryAuthorizer.swift; sourceTree = "<group>"; };
-		6B026CE06D0065F7B918D9A597C99D50 /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryViewController.swift; path = ALCameraViewController/ViewController/PhotoLibraryViewController.swift; sourceTree = "<group>"; };
-		6EE46930EDEC93B531AD8694A6355DD2 /* CroppingParameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CroppingParameters.swift; path = ALCameraViewController/Utilities/CroppingParameters.swift; sourceTree = "<group>"; };
-		7190FCCF1CE9572A322A528BE78C0F40 /* PopupDialogDefaultViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultViewController.swift; path = PopupDialog/Classes/PopupDialogDefaultViewController.swift; sourceTree = "<group>"; };
-		737412CBC1C6D94AAF2951955F786754 /* PopupDialog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PopupDialog-Info.plist"; sourceTree = "<group>"; };
-		78F34C1D71EA45B58DDA25F0B61A8773 /* PopupDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialog.swift; path = PopupDialog/Classes/PopupDialog.swift; sourceTree = "<group>"; };
-		7ABC95094EF3B996BFBCB9DB570A1B76 /* DynamicBlurView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DynamicBlurView-dummy.m"; sourceTree = "<group>"; };
-		7CF3D49F40E4E72E32539DAF530E96D5 /* DynamicBlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DynamicBlurView.swift; path = DynamicBlurView/DynamicBlurView.swift; sourceTree = "<group>"; };
-		7EBEDB33C4F7FAC8D8190798AA85A738 /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = PopupDialog/Classes/TransitionAnimator.swift; sourceTree = "<group>"; };
-		8160A10F544DE74C2E2345F04307AD80 /* TransitionAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimations.swift; path = PopupDialog/Classes/TransitionAnimations.swift; sourceTree = "<group>"; };
-		8220ABB7E56F054C9C7E2E582CEBE330 /* CameraViewControllerConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewControllerConstraint.swift; path = ALCameraViewController/ViewController/CameraViewControllerConstraint.swift; sourceTree = "<group>"; };
-		84AA925DA2221E866CAD69ECEBEA673A /* InteractiveTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveTransition.swift; path = PopupDialog/Classes/InteractiveTransition.swift; sourceTree = "<group>"; };
+		6F6A47AD77EA5F224AFEDCEB516341B8 /* PopupDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PopupDialog-dummy.m"; sourceTree = "<group>"; };
+		7842542AE261F2FE26F27EC10487F774 /* DynamicBlurView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DynamicBlurView-Info.plist"; sourceTree = "<group>"; };
+		79F1B8AC2D4C3EB939E437DDFA75BDED /* PresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationManager.swift; path = PopupDialog/Classes/PresentationManager.swift; sourceTree = "<group>"; };
+		7A981107BB7EDB8561BA0265AA29910A /* PopupDialogButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogButton.swift; path = PopupDialog/Classes/PopupDialogButton.swift; sourceTree = "<group>"; };
+		7BB8B59C81520B81D5764E9326A53824 /* PopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-umbrella.h"; sourceTree = "<group>"; };
+		7BCF6B1712460429A185B4EABA17003D /* CroppingParameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CroppingParameters.swift; path = ALCameraViewController/Utilities/CroppingParameters.swift; sourceTree = "<group>"; };
+		7C107A9A18482C06E6EBEAFC3B36244E /* PhotoLibraryAuthorizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryAuthorizer.swift; path = ALCameraViewController/Utilities/PhotoLibraryAuthorizer.swift; sourceTree = "<group>"; };
+		7CB1F0101662D08E2BA26838C0879C7E /* TransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimator.swift; path = PopupDialog/Classes/TransitionAnimator.swift; sourceTree = "<group>"; };
+		828F1F7B233D8D39EF9B421A2081A4C1 /* CaptureQuality.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureQuality.swift; path = DynamicBlurView/CaptureQuality.swift; sourceTree = "<group>"; };
 		84CFEF76AAC22E0ECD46FFF9DF9A1D3D /* Pods-LeopardTrails-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LeopardTrails-umbrella.h"; sourceTree = "<group>"; };
+		86BE1829A1DD8633924CA1D202765103 /* UIImage+Blur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Blur.swift"; path = "DynamicBlurView/UIImage+Blur.swift"; sourceTree = "<group>"; };
 		86C4A2D817E6CFFF31BF75161625FD5D /* DynamicBlurView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DynamicBlurView.framework; path = DynamicBlurView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8916128D69B1671C0D9F492D431FA755 /* ALCameraViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ALCameraViewController.modulemap; sourceTree = "<group>"; };
-		8B7E93A7B782CB0BA6095F17E415FF6C /* CGContext+CGImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGContext+CGImage.swift"; path = "DynamicBlurView/CGContext+CGImage.swift"; sourceTree = "<group>"; };
-		8D4AC9E8380B3E9D6F6F85B69CD315EE /* UILabelExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UILabelExtensions.swift; path = GTProgressBar/Classes/UILabelExtensions.swift; sourceTree = "<group>"; };
-		8EA521EB81F982464638A088B1781C2E /* DynamicBlurView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicBlurView.xcconfig; sourceTree = "<group>"; };
-		901C190986BB2F85300C634D8693BD09 /* PermissionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionsView.swift; path = ALCameraViewController/Views/PermissionsView.swift; sourceTree = "<group>"; };
-		9671F3EBC13C05A0561C0E02A227ECEF /* UIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = ALCameraViewController/Utilities/UIButtonExtensions.swift; sourceTree = "<group>"; };
-		96B8CCC8677F0C41F503B8D2298C870B /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = PopupDialog/Classes/PresentationController.swift; sourceTree = "<group>"; };
-		986D832E91454E1EEE06C2597FA71972 /* GTProgressBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GTProgressBar.swift; path = GTProgressBar/Classes/GTProgressBar.swift; sourceTree = "<group>"; };
-		98948F69E826AE39F757CE31C4DEF9BC /* PopupDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-umbrella.h"; sourceTree = "<group>"; };
-		9954C937B7233A9EEFB641F6E25805F2 /* PopupDialog+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopupDialog+Keyboard.swift"; path = "PopupDialog/Classes/PopupDialog+Keyboard.swift"; sourceTree = "<group>"; };
+		86EEB10009740D802C8F0FE35C4C0213 /* CGImage+Accelerate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGImage+Accelerate.swift"; path = "DynamicBlurView/CGImage+Accelerate.swift"; sourceTree = "<group>"; };
+		8A94EC9B5CADF0335EACADC9F2DC2F0D /* CGContext+CGImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGContext+CGImage.swift"; path = "DynamicBlurView/CGContext+CGImage.swift"; sourceTree = "<group>"; };
+		8AA94AFCEFE45448A6F634B25BB35CA4 /* ALCameraViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-umbrella.h"; sourceTree = "<group>"; };
+		91D42983F5961C10C13D5AF07F6DACB9 /* SingleImageSaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageSaver.swift; path = ALCameraViewController/Utilities/SingleImageSaver.swift; sourceTree = "<group>"; };
+		954D5F619FB252032B87EE0AE8F685F1 /* BlurLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurLayer.swift; path = DynamicBlurView/BlurLayer.swift; sourceTree = "<group>"; };
+		997440B4861FA540FFAFB1757112EF1C /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ALCameraViewController/Utilities/Utilities.swift; sourceTree = "<group>"; };
+		9C329A7C1633CD9A4BE785F9236A493D /* TransitionButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TransitionButton.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A202C365EB0CE06164DF3529FB557DDF /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogContainerView.swift; path = PopupDialog/Classes/PopupDialogContainerView.swift; sourceTree = "<group>"; };
-		A49AA201450E23B3389CB2AFFE18BA39 /* GTProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTProgressBar-umbrella.h"; sourceTree = "<group>"; };
-		A573C1E5273A851FB78FDF65535A6937 /* GTProgressBarDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GTProgressBarDirection.swift; path = GTProgressBar/Classes/GTProgressBarDirection.swift; sourceTree = "<group>"; };
-		A6C0DED5610DE4486681B3CF3C79E8DB /* FrameCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameCalculator.swift; path = GTProgressBar/Classes/FrameCalculator.swift; sourceTree = "<group>"; };
-		A76EF1634F2D6A1EBAA7B38EB5C61328 /* GTProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTProgressBar.xcconfig; sourceTree = "<group>"; };
+		9FE07B328F29F8D4159F9949F793C6A9 /* DynamicBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamicBlurView.h; path = DynamicBlurView/DynamicBlurView.h; sourceTree = "<group>"; };
+		A331F701565D41E284E6E7C6A5262D22 /* CGRectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectExtension.swift; path = Source/CGRectExtension.swift; sourceTree = "<group>"; };
+		A6A8F213DCB86A120C5574C107E496A0 /* CameraViewControllerConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewControllerConstraint.swift; path = ALCameraViewController/ViewController/CameraViewControllerConstraint.swift; sourceTree = "<group>"; };
 		A8ECEFC3377AFC5A9781164809BB89A1 /* Pods-LeopardTrails-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeopardTrails-acknowledgements.plist"; sourceTree = "<group>"; };
-		AB7773B124F4E4A81F87CB637A476B00 /* PopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PopupDialog.modulemap; sourceTree = "<group>"; };
-		ACAB4C60D347B9BFF269DC8DA377D75C /* PopupDialogDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultView.swift; path = PopupDialog/Classes/PopupDialogDefaultView.swift; sourceTree = "<group>"; };
-		AD164F93EB35FF8DB0FEC7A1E604365C /* GTProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTProgressBar.modulemap; sourceTree = "<group>"; };
-		AF416934F7B9C2AEF14DCAF15F7D1D55 /* BlurLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurLayer.swift; path = DynamicBlurView/BlurLayer.swift; sourceTree = "<group>"; };
-		B0C3D0265BA374F980A935A287CB60F6 /* PresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationManager.swift; path = PopupDialog/Classes/PresentationManager.swift; sourceTree = "<group>"; };
-		B4DCBE08EF6F1301AEC391018F782A5B /* CGImage+Accelerate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGImage+Accelerate.swift"; path = "DynamicBlurView/CGImage+Accelerate.swift"; sourceTree = "<group>"; };
+		A9A63E38F4AEA70F63224FD8635573D8 /* SingleImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageFetcher.swift; path = ALCameraViewController/Utilities/SingleImageFetcher.swift; sourceTree = "<group>"; };
+		AC9BCF21955224E44997D68DFE294744 /* CameraShot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraShot.swift; path = ALCameraViewController/Utilities/CameraShot.swift; sourceTree = "<group>"; };
+		B4052A342988190A219FEA3DA69A65BD /* TransitionAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionAnimations.swift; path = PopupDialog/Classes/TransitionAnimations.swift; sourceTree = "<group>"; };
 		B6249D0DEDE09097FCB7FFE25FCBD3B7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BBA167A7AF1D3ADB2EFE709F4BEE342B /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = ALCameraViewController/Views/CameraView.swift; sourceTree = "<group>"; };
-		BE306C4A8C32C36AD4B602666A495401 /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Calculations.swift"; path = "PopupDialog/Classes/UIImageView+Calculations.swift"; sourceTree = "<group>"; };
-		BF4EA1E527A1F0BC51950144182EA730 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ALCameraViewController/Utilities/Utilities.swift; sourceTree = "<group>"; };
-		C02FB7AAAD233BECBB8F28CFF0B1F0BC /* ALCameraViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ALCameraViewController-Info.plist"; sourceTree = "<group>"; };
-		CBCB468B6460E8AB316364394509A382 /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "PopupDialog/Classes/UIView+Animations.swift"; sourceTree = "<group>"; };
-		CED3C9950566224677D76611D46C8CB4 /* GTProgressBarLabelPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GTProgressBarLabelPosition.swift; path = GTProgressBar/Classes/GTProgressBarLabelPosition.swift; sourceTree = "<group>"; };
-		D0BF2F0A28E3EAE593300FE9791AAA89 /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ALCameraViewController/ViewController/CameraViewController.swift; sourceTree = "<group>"; };
-		D1D6A858E62B87460A56AF3899824A36 /* ALCameraViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-umbrella.h"; sourceTree = "<group>"; };
-		D3A20B0C9B393FF92828A7D5BE46036D /* ConfirmViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmViewController.swift; path = ALCameraViewController/ViewController/ConfirmViewController.swift; sourceTree = "<group>"; };
-		D4B4A7E8FE424353C0FDE3D3AE4AECEB /* CropOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropOverlay.swift; path = ALCameraViewController/Views/CropOverlay.swift; sourceTree = "<group>"; };
-		D8CE598D8EDB670A275C85F4CE6EBB87 /* PopupDialogOverlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogOverlayView.swift; path = PopupDialog/Classes/PopupDialogOverlayView.swift; sourceTree = "<group>"; };
-		DBCADDFA0653EA68A71452C29271AD61 /* GTProgressBarCornerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GTProgressBarCornerType.swift; path = GTProgressBar/Classes/GTProgressBarCornerType.swift; sourceTree = "<group>"; };
-		DC7255939C67E13FD55335DF45397A74 /* DynamicBlurView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DynamicBlurView.modulemap; sourceTree = "<group>"; };
-		DD8FC7965E6D3F2DF3A7EAF4F51532B0 /* VerticalLabelPositionFrameCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerticalLabelPositionFrameCalculator.swift; path = GTProgressBar/Classes/VerticalLabelPositionFrameCalculator.swift; sourceTree = "<group>"; };
+		B790598087C3D3B740A1E99319AEF732 /* PopupDialog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PopupDialog-Info.plist"; sourceTree = "<group>"; };
+		B9F7D81CE1D04DD6498D1E68AC66E21B /* ALCameraViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ALCameraViewController-Info.plist"; sourceTree = "<group>"; };
+		BA0078E792E0B575A0993535750470F7 /* UIImageView+Calculations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Calculations.swift"; path = "PopupDialog/Classes/UIImageView+Calculations.swift"; sourceTree = "<group>"; };
+		C47C9B733B9AABEAD6EAD156B17D4CE1 /* ImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFetcher.swift; path = ALCameraViewController/Utilities/ImageFetcher.swift; sourceTree = "<group>"; };
+		C4BF6D8C7A158E0BB47AF3525D56AA59 /* PopupDialogDefaultView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultView.swift; path = PopupDialog/Classes/PopupDialogDefaultView.swift; sourceTree = "<group>"; };
+		C5CC0AAA13E63B1E1B492C676AF0780E /* ALCameraViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALCameraViewController-dummy.m"; sourceTree = "<group>"; };
+		C912836EC57315FCC5E14F40FA0A8AF6 /* PermissionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionsView.swift; path = ALCameraViewController/Views/PermissionsView.swift; sourceTree = "<group>"; };
+		D09C3D78EDE291288792D2ECF9FC526D /* UIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = ALCameraViewController/Utilities/UIButtonExtensions.swift; sourceTree = "<group>"; };
+		D937BFF1265DDCFC3C61A31C7361C9B6 /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ALCameraViewController/ViewController/CameraViewController.swift; sourceTree = "<group>"; };
+		DEA61F89F1F9DBBC27BA407AE1B64D89 /* UIViewController+Visibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Visibility.swift"; path = "PopupDialog/Classes/UIViewController+Visibility.swift"; sourceTree = "<group>"; };
 		E1D1BB2CC1D92B1F43FEC378C1D5252D /* Pods-LeopardTrails.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeopardTrails.debug.xcconfig"; sourceTree = "<group>"; };
-		E32D4F2BC3F76DCB450EDC83342C9593 /* CameraViewAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = CameraViewAssets.xcassets; path = ALCameraViewController/CameraViewAssets.xcassets; sourceTree = "<group>"; };
-		E6B951A38C357B2647EE5BAF525F8A97 /* PopupDialogDefaultButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogDefaultButtons.swift; path = PopupDialog/Classes/PopupDialogDefaultButtons.swift; sourceTree = "<group>"; };
+		E6B760E78C4CF1CEE699C26D0CFA98B7 /* DynamicBlurView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamicBlurView.xcconfig; sourceTree = "<group>"; };
+		E6FAF1C1E3A39BCB966DA354F8EF3E63 /* PopupDialogContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PopupDialogContainerView.swift; path = PopupDialog/Classes/PopupDialogContainerView.swift; sourceTree = "<group>"; };
+		E9698EB6241548317D18F497250155BD /* PopupDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PopupDialog.modulemap; sourceTree = "<group>"; };
+		EA9A7B27E9A06041CE6B1A9BE9E2E74C /* ImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCell.swift; path = ALCameraViewController/Views/ImageCell.swift; sourceTree = "<group>"; };
 		EAFE620751F017A164ECE9CAA3FC056F /* ALCameraViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ALCameraViewController.framework; path = ALCameraViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECD55A50594D060654419E92CDB83859 /* ConfirmViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ConfirmViewController.xib; path = ALCameraViewController/ViewController/ConfirmViewController.xib; sourceTree = "<group>"; };
-		ED5156770C70F298D58E2F9F22ACC047 /* ALCameraViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALCameraViewController-dummy.m"; sourceTree = "<group>"; };
-		EFB5AB8AA56CE16C2D7DE4C7C29413E1 /* GTProgressBarOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GTProgressBarOrientation.swift; path = GTProgressBar/Classes/GTProgressBarOrientation.swift; sourceTree = "<group>"; };
-		F1DA6E59CE9530505795C86B210E8F4E /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = GTProgressBar/Classes/UIViewExtensions.swift; sourceTree = "<group>"; };
+		ECFA6D3DA0BA917026A5DDE97D0B8C03 /* PresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PresentationController.swift; path = PopupDialog/Classes/PresentationController.swift; sourceTree = "<group>"; };
+		EEDA1685A178A8BD8FACB65C7FACDE0F /* PopupDialog+Keyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopupDialog+Keyboard.swift"; path = "PopupDialog/Classes/PopupDialog+Keyboard.swift"; sourceTree = "<group>"; };
+		F0DA624EFC6AA872AE75DF7D07A7FD49 /* PopupDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PopupDialog-prefix.pch"; sourceTree = "<group>"; };
+		F219E913BA27BFD773B7511F0FB835FF /* ALCameraViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALCameraViewController.xcconfig; sourceTree = "<group>"; };
 		F70764E47BEE968FE74F4D081FC5B561 /* Pods-LeopardTrails-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeopardTrails-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F73D2C34CD06D8F5C8FA82D222198F02 /* GTProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		FAD54C43DF41DDA818B8E5A5B227528C /* UIView+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Animations.swift"; path = "PopupDialog/Classes/UIView+Animations.swift"; sourceTree = "<group>"; };
+		FDB17C15C6FBC5E2951D1AE7677658EC /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = ALCameraViewController/Utilities/UIViewExtensions.swift; sourceTree = "<group>"; };
+		FE8FA2C6CF2D7D51D1EA8C29D2E95152 /* TransitionButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TransitionButton-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03A553EDB4C0614DD6A26F164029FA12 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1390F609CA475A3D940771525DD5DC2D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		384242EED5281D4B6D9D8B2178AD6788 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5CAA05AD5D60ADF1F7498CFD566B08C0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		74F47434089ED97AF48B711E9FADBF5C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,11 +224,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		908413C9ED1F49B6AA66FD3EA80F9AB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E396CAE49DE2801ADCB085CA419359 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB11CC54FDA03D7EFDA6FF971BA5F563 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				96D8204B3A36D243904EE9F04BE29ADD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6254D7F09D1D67099DBD37D879DE85B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5320B0C3A67FFED5DBE1589F692B7A03 /* Foundation.framework in Frameworks */,
+				6B49661FB32AFE2B4B91E3242F9DDE2B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,102 +262,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		282ADBC798F58E3D3B915037983C7C81 /* DynamicBlurView */ = {
+		13ABF038FF77226E43120962DDB729BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF416934F7B9C2AEF14DCAF15F7D1D55 /* BlurLayer.swift */,
-				0B326F2A53F7ACA260F61F086DB569EC /* CaptureQuality.swift */,
-				8B7E93A7B782CB0BA6095F17E415FF6C /* CGContext+CGImage.swift */,
-				B4DCBE08EF6F1301AEC391018F782A5B /* CGImage+Accelerate.swift */,
-				5E2E87F2031D260717310910611EBF72 /* DynamicBlurView.h */,
-				7CF3D49F40E4E72E32539DAF530E96D5 /* DynamicBlurView.swift */,
-				5980A922C7CEB8C3209228140EDC77E1 /* TrackingMode.swift */,
-				52793432A04A477B612F1C6EB1F224C3 /* UIImage+Blur.swift */,
-				934F76E7E1B2142C6D10FD0C0CBF96B0 /* Support Files */,
+				EAFE620751F017A164ECE9CAA3FC056F /* ALCameraViewController.framework */,
+				86C4A2D817E6CFFF31BF75161625FD5D /* DynamicBlurView.framework */,
+				5E950635DA0482CAACCAA775DD8A9878 /* Pods_LeopardTrails.framework */,
+				34FB964502259D0FF233CE71CFDD2A71 /* PopupDialog.framework */,
+				5F6BA03A0925860EA21A0CB5F550E9CB /* TransitionButton.framework */,
 			);
-			name = DynamicBlurView;
-			path = DynamicBlurView;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		2FA799DA820272D947039C3A9A71526F /* Support Files */ = {
+		1765EE657A0C591F1521322D86AD32C7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8916128D69B1671C0D9F492D431FA755 /* ALCameraViewController.modulemap */,
-				38AB15DB03AAC4ABB6E10DF24CC360D3 /* ALCameraViewController.xcconfig */,
-				ED5156770C70F298D58E2F9F22ACC047 /* ALCameraViewController-dummy.m */,
-				C02FB7AAAD233BECBB8F28CFF0B1F0BC /* ALCameraViewController-Info.plist */,
-				3F76FD1E5D017EC4B11C9501CF360788 /* ALCameraViewController-prefix.pch */,
-				D1D6A858E62B87460A56AF3899824A36 /* ALCameraViewController-umbrella.h */,
+				564A8E6B0223250CEBEF4FED665450D8 /* DynamicBlurView.modulemap */,
+				E6B760E78C4CF1CEE699C26D0CFA98B7 /* DynamicBlurView.xcconfig */,
+				5EA99F8C24AD0DB56B0DB5442B4F9F5C /* DynamicBlurView-dummy.m */,
+				7842542AE261F2FE26F27EC10487F774 /* DynamicBlurView-Info.plist */,
+				4002FFC966B97DD05FED4EF7B7D2F38D /* DynamicBlurView-prefix.pch */,
+				1DC9C9ABD6E17C482E30E8A20DF6BABB /* DynamicBlurView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DynamicBlurView";
+			sourceTree = "<group>";
+		};
+		1EFE35CD6704F761E9633D66839CEE77 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37EC655BBD274417B4F359F64AED7B5B /* ALCameraViewController.modulemap */,
+				F219E913BA27BFD773B7511F0FB835FF /* ALCameraViewController.xcconfig */,
+				C5CC0AAA13E63B1E1B492C676AF0780E /* ALCameraViewController-dummy.m */,
+				B9F7D81CE1D04DD6498D1E68AC66E21B /* ALCameraViewController-Info.plist */,
+				097F1E01EC7BB9658BA14151FDB2C81A /* ALCameraViewController-prefix.pch */,
+				8AA94AFCEFE45448A6F634B25BB35CA4 /* ALCameraViewController-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ALCameraViewController";
 			sourceTree = "<group>";
 		};
-		3FA6F59D33FC246000506CA750AF142C /* ALCameraViewController */ = {
+		422F5C900DE3946631F4171635CFF16A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				406CD3C593254FE9BBB43C10F9CDA66A /* CameraGlobals.swift */,
-				312FBA4C32899363331767DD51B500A4 /* CameraShot.swift */,
-				BBA167A7AF1D3ADB2EFE709F4BEE342B /* CameraView.swift */,
-				D0BF2F0A28E3EAE593300FE9791AAA89 /* CameraViewController.swift */,
-				8220ABB7E56F054C9C7E2E582CEBE330 /* CameraViewControllerConstraint.swift */,
-				D3A20B0C9B393FF92828A7D5BE46036D /* ConfirmViewController.swift */,
-				D4B4A7E8FE424353C0FDE3D3AE4AECEB /* CropOverlay.swift */,
-				6EE46930EDEC93B531AD8694A6355DD2 /* CroppingParameters.swift */,
-				0EDE34A9D52157AFA6BF5FAFF6C264F0 /* ImageCell.swift */,
-				0C62AF91B0F85BA25ADFFF100F66D26B /* ImageFetcher.swift */,
-				901C190986BB2F85300C634D8693BD09 /* PermissionsView.swift */,
-				6ABFB1B920CFDE4EC9F957B89C3B66AB /* PhotoLibraryAuthorizer.swift */,
-				6B026CE06D0065F7B918D9A597C99D50 /* PhotoLibraryViewController.swift */,
-				42F7AB91F2A26D6A0938B08643E76FBB /* SingleImageFetcher.swift */,
-				38CFDD2A5E9B1939B6CA70F839724FB1 /* SingleImageSaver.swift */,
-				9671F3EBC13C05A0561C0E02A227ECEF /* UIButtonExtensions.swift */,
-				1E0AA19F481BCFBBA34D09E283922FCB /* UIViewExtensions.swift */,
-				BF4EA1E527A1F0BC51950144182EA730 /* Utilities.swift */,
-				2B34B59BC8B69CE14565E2355DB600D6 /* VolumeControl.swift */,
-				5BD28C95434856C24A7509E80CDCE74E /* Resources */,
-				2FA799DA820272D947039C3A9A71526F /* Support Files */,
+				A8AF80E8A4CD771DC01273BE3A71A113 /* ALCameraViewController */,
+				7428F279C2794ACB02F049159CA2FA1D /* DynamicBlurView */,
+				F94FB433C1DB9F5C5AF015D0660F3D2D /* PopupDialog */,
+				9C4BA3B6F48530708F1A262674CA1309 /* TransitionButton */,
 			);
-			name = ALCameraViewController;
-			path = ALCameraViewController;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		5BD28C95434856C24A7509E80CDCE74E /* Resources */ = {
+		53697E0FC43A0C6F2BF0ABFF26BCC8B5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1B60A8C781E27454B5E32C0A32F7C9AE /* CameraView.strings */,
-				E32D4F2BC3F76DCB450EDC83342C9593 /* CameraViewAssets.xcassets */,
-				ECD55A50594D060654419E92CDB83859 /* ConfirmViewController.xib */,
+				65EAD7734A7BF72DB5F2B2713BB7B11D /* CameraView.strings */,
+				2E43D956FD80BE047E2667A79799C5C7 /* CameraViewAssets.xcassets */,
+				1552B06E542F47840CC79BAB2FD894F1 /* ConfirmViewController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		6D2070AB77321D7FA7A8F3A094D1C2B5 /* Support Files */ = {
+		6120143F5B8968229F598EB13F951173 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AD164F93EB35FF8DB0FEC7A1E604365C /* GTProgressBar.modulemap */,
-				A76EF1634F2D6A1EBAA7B38EB5C61328 /* GTProgressBar.xcconfig */,
-				3DD644F7E026158A4B778850BFD67703 /* GTProgressBar-dummy.m */,
-				33BCE0FF3CF2937DBB2D6A766D1FBE24 /* GTProgressBar-Info.plist */,
-				F73D2C34CD06D8F5C8FA82D222198F02 /* GTProgressBar-prefix.pch */,
-				A49AA201450E23B3389CB2AFFE18BA39 /* GTProgressBar-umbrella.h */,
+				2EB7B7CB902611217781392FC2E4A33A /* TransitionButton.modulemap */,
+				9C329A7C1633CD9A4BE785F9236A493D /* TransitionButton.xcconfig */,
+				659E01023F036241FC11F6097EECC174 /* TransitionButton-dummy.m */,
+				1FC2D5479C5D782AA26504C86CC8097C /* TransitionButton-Info.plist */,
+				2E99FA8B7F785E5DDBA670CE7DDBB40A /* TransitionButton-prefix.pch */,
+				FE8FA2C6CF2D7D51D1EA8C29D2E95152 /* TransitionButton-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/GTProgressBar";
+			path = "../Target Support Files/TransitionButton";
 			sourceTree = "<group>";
 		};
-		7F993FACF8BD220A4C4CB08D4F1C4A1F /* Support Files */ = {
+		7428F279C2794ACB02F049159CA2FA1D /* DynamicBlurView */ = {
 			isa = PBXGroup;
 			children = (
-				AB7773B124F4E4A81F87CB637A476B00 /* PopupDialog.modulemap */,
-				13E48BCEAAF4FCB7E3C1847042927914 /* PopupDialog.xcconfig */,
-				0FAB8000B5FA10B6A44303DD19A44EAB /* PopupDialog-dummy.m */,
-				737412CBC1C6D94AAF2951955F786754 /* PopupDialog-Info.plist */,
-				6A5258E77D5BDA3AD85958D80A436137 /* PopupDialog-prefix.pch */,
-				98948F69E826AE39F757CE31C4DEF9BC /* PopupDialog-umbrella.h */,
+				954D5F619FB252032B87EE0AE8F685F1 /* BlurLayer.swift */,
+				828F1F7B233D8D39EF9B421A2081A4C1 /* CaptureQuality.swift */,
+				8A94EC9B5CADF0335EACADC9F2DC2F0D /* CGContext+CGImage.swift */,
+				86EEB10009740D802C8F0FE35C4C0213 /* CGImage+Accelerate.swift */,
+				9FE07B328F29F8D4159F9949F793C6A9 /* DynamicBlurView.h */,
+				4333BB9FD55A0E258FCC6E684F3DBE5C /* DynamicBlurView.swift */,
+				62D77F282DFD1361EB9CEE311A7CA112 /* TrackingMode.swift */,
+				86BE1829A1DD8633924CA1D202765103 /* UIImage+Blur.swift */,
+				1765EE657A0C591F1521322D86AD32C7 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/PopupDialog";
+			name = DynamicBlurView;
+			path = DynamicBlurView;
 			sourceTree = "<group>";
 		};
 		7F9D3681372E9E3EC2FE2A4BE7253AF1 /* Frameworks */ = {
@@ -402,74 +388,47 @@
 			path = "Target Support Files/Pods-LeopardTrails";
 			sourceTree = "<group>";
 		};
-		934F76E7E1B2142C6D10FD0C0CBF96B0 /* Support Files */ = {
+		9C4BA3B6F48530708F1A262674CA1309 /* TransitionButton */ = {
 			isa = PBXGroup;
 			children = (
-				DC7255939C67E13FD55335DF45397A74 /* DynamicBlurView.modulemap */,
-				8EA521EB81F982464638A088B1781C2E /* DynamicBlurView.xcconfig */,
-				7ABC95094EF3B996BFBCB9DB570A1B76 /* DynamicBlurView-dummy.m */,
-				003A23A11E528E55F7EFD18C41084B09 /* DynamicBlurView-Info.plist */,
-				16B6107BEF38C6EA8CD6BC494202E468 /* DynamicBlurView-prefix.pch */,
-				1452756030E6536E5820406A7FACF8E9 /* DynamicBlurView-umbrella.h */,
+				A331F701565D41E284E6E7C6A5262D22 /* CGRectExtension.swift */,
+				548D13D1A713BC710B6B53330DC78821 /* CustomTransitionViewController.swift */,
+				561552B302A523963470047D2BFD0A1D /* FadeTransition.swift */,
+				12C4433C904741672F64A1BF453C355C /* SpinerLayer.swift */,
+				5B24332027265CA77288E22C27B65916 /* TransitionButton.swift */,
+				6120143F5B8968229F598EB13F951173 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DynamicBlurView";
+			name = TransitionButton;
+			path = TransitionButton;
 			sourceTree = "<group>";
 		};
-		A4930B33CEEA16B29F891B904D618554 /* PopupDialog */ = {
+		A8AF80E8A4CD771DC01273BE3A71A113 /* ALCameraViewController */ = {
 			isa = PBXGroup;
 			children = (
-				84AA925DA2221E866CAD69ECEBEA673A /* InteractiveTransition.swift */,
-				78F34C1D71EA45B58DDA25F0B61A8773 /* PopupDialog.swift */,
-				9954C937B7233A9EEFB641F6E25805F2 /* PopupDialog+Keyboard.swift */,
-				23D9D709C147F11049665DC8F4710F4C /* PopupDialogButton.swift */,
-				A202C365EB0CE06164DF3529FB557DDF /* PopupDialogContainerView.swift */,
-				E6B951A38C357B2647EE5BAF525F8A97 /* PopupDialogDefaultButtons.swift */,
-				ACAB4C60D347B9BFF269DC8DA377D75C /* PopupDialogDefaultView.swift */,
-				7190FCCF1CE9572A322A528BE78C0F40 /* PopupDialogDefaultViewController.swift */,
-				D8CE598D8EDB670A275C85F4CE6EBB87 /* PopupDialogOverlayView.swift */,
-				96B8CCC8677F0C41F503B8D2298C870B /* PresentationController.swift */,
-				B0C3D0265BA374F980A935A287CB60F6 /* PresentationManager.swift */,
-				8160A10F544DE74C2E2345F04307AD80 /* TransitionAnimations.swift */,
-				7EBEDB33C4F7FAC8D8190798AA85A738 /* TransitionAnimator.swift */,
-				BE306C4A8C32C36AD4B602666A495401 /* UIImageView+Calculations.swift */,
-				CBCB468B6460E8AB316364394509A382 /* UIView+Animations.swift */,
-				185D810D2350DD3BFFDB523A21A9FEE0 /* UIViewController+Visibility.swift */,
-				7F993FACF8BD220A4C4CB08D4F1C4A1F /* Support Files */,
+				186150F42706D0CEF85520739EB6D1E1 /* CameraGlobals.swift */,
+				AC9BCF21955224E44997D68DFE294744 /* CameraShot.swift */,
+				453E5EDC886095DFAB0A8EB8C9F7665A /* CameraView.swift */,
+				D937BFF1265DDCFC3C61A31C7361C9B6 /* CameraViewController.swift */,
+				A6A8F213DCB86A120C5574C107E496A0 /* CameraViewControllerConstraint.swift */,
+				1891D398629B500CABFE404EDE7DC262 /* ConfirmViewController.swift */,
+				5ABBD4856D9B9C43E05F34D16E8DED05 /* CropOverlay.swift */,
+				7BCF6B1712460429A185B4EABA17003D /* CroppingParameters.swift */,
+				EA9A7B27E9A06041CE6B1A9BE9E2E74C /* ImageCell.swift */,
+				C47C9B733B9AABEAD6EAD156B17D4CE1 /* ImageFetcher.swift */,
+				C912836EC57315FCC5E14F40FA0A8AF6 /* PermissionsView.swift */,
+				7C107A9A18482C06E6EBEAFC3B36244E /* PhotoLibraryAuthorizer.swift */,
+				217328983C7969FE17DC25FD23BC0624 /* PhotoLibraryViewController.swift */,
+				A9A63E38F4AEA70F63224FD8635573D8 /* SingleImageFetcher.swift */,
+				91D42983F5961C10C13D5AF07F6DACB9 /* SingleImageSaver.swift */,
+				D09C3D78EDE291288792D2ECF9FC526D /* UIButtonExtensions.swift */,
+				FDB17C15C6FBC5E2951D1AE7677658EC /* UIViewExtensions.swift */,
+				997440B4861FA540FFAFB1757112EF1C /* Utilities.swift */,
+				27F773692AE6826E774DA9019A2C3FBD /* VolumeControl.swift */,
+				53697E0FC43A0C6F2BF0ABFF26BCC8B5 /* Resources */,
+				1EFE35CD6704F761E9633D66839CEE77 /* Support Files */,
 			);
-			name = PopupDialog;
-			path = PopupDialog;
-			sourceTree = "<group>";
-		};
-		BC4DB324BA80C1CDBBBD157E10BFA505 /* GTProgressBar */ = {
-			isa = PBXGroup;
-			children = (
-				A6C0DED5610DE4486681B3CF3C79E8DB /* FrameCalculator.swift */,
-				986D832E91454E1EEE06C2597FA71972 /* GTProgressBar.swift */,
-				DBCADDFA0653EA68A71452C29271AD61 /* GTProgressBarCornerType.swift */,
-				A573C1E5273A851FB78FDF65535A6937 /* GTProgressBarDirection.swift */,
-				CED3C9950566224677D76611D46C8CB4 /* GTProgressBarLabelPosition.swift */,
-				EFB5AB8AA56CE16C2D7DE4C7C29413E1 /* GTProgressBarOrientation.swift */,
-				3B5F0555CDA87618A02A294A3DC07BA4 /* HorizontalLabelPositionFrameCalculator.swift */,
-				8D4AC9E8380B3E9D6F6F85B69CD315EE /* UILabelExtensions.swift */,
-				F1DA6E59CE9530505795C86B210E8F4E /* UIViewExtensions.swift */,
-				DD8FC7965E6D3F2DF3A7EAF4F51532B0 /* VerticalLabelPositionFrameCalculator.swift */,
-				6D2070AB77321D7FA7A8F3A094D1C2B5 /* Support Files */,
-			);
-			name = GTProgressBar;
-			path = GTProgressBar;
-			sourceTree = "<group>";
-		};
-		C99A7F673EBB993484FA1F0B578CE7E4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EAFE620751F017A164ECE9CAA3FC056F /* ALCameraViewController.framework */,
-				86C4A2D817E6CFFF31BF75161625FD5D /* DynamicBlurView.framework */,
-				3174873BAC84A271B68FC8EB295DB0C2 /* GTProgressBar.framework */,
-				5E950635DA0482CAACCAA775DD8A9878 /* Pods_LeopardTrails.framework */,
-				34FB964502259D0FF233CE71CFDD2A71 /* PopupDialog.framework */,
-			);
-			name = Products;
+			name = ALCameraViewController;
+			path = ALCameraViewController;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -477,21 +436,10 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				7F9D3681372E9E3EC2FE2A4BE7253AF1 /* Frameworks */,
-				DD65E1403D782D0432F8640EBDD65F66 /* Pods */,
-				C99A7F673EBB993484FA1F0B578CE7E4 /* Products */,
+				422F5C900DE3946631F4171635CFF16A /* Pods */,
+				13ABF038FF77226E43120962DDB729BD /* Products */,
 				895D3BD72B284EB32455F3A0CB2EBEC8 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		DD65E1403D782D0432F8640EBDD65F66 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3FA6F59D33FC246000506CA750AF142C /* ALCameraViewController */,
-				282ADBC798F58E3D3B915037983C7C81 /* DynamicBlurView */,
-				BC4DB324BA80C1CDBBBD157E10BFA505 /* GTProgressBar */,
-				A4930B33CEEA16B29F891B904D618554 /* PopupDialog */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		EF560866D2792929CF9E42DB507B41B6 /* iOS */ = {
@@ -504,25 +452,48 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		F3A7164EE548C6173CCCCA0A875B6A4D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9698EB6241548317D18F497250155BD /* PopupDialog.modulemap */,
+				2331D0FE090D2E755F7D71FDCBDEF1F5 /* PopupDialog.xcconfig */,
+				6F6A47AD77EA5F224AFEDCEB516341B8 /* PopupDialog-dummy.m */,
+				B790598087C3D3B740A1E99319AEF732 /* PopupDialog-Info.plist */,
+				F0DA624EFC6AA872AE75DF7D07A7FD49 /* PopupDialog-prefix.pch */,
+				7BB8B59C81520B81D5764E9326A53824 /* PopupDialog-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PopupDialog";
+			sourceTree = "<group>";
+		};
+		F94FB433C1DB9F5C5AF015D0660F3D2D /* PopupDialog */ = {
+			isa = PBXGroup;
+			children = (
+				190AE8B493CB93813F656BD6B4CF2FA4 /* InteractiveTransition.swift */,
+				06F76154D357A7521F0AAB904B0913BF /* PopupDialog.swift */,
+				EEDA1685A178A8BD8FACB65C7FACDE0F /* PopupDialog+Keyboard.swift */,
+				7A981107BB7EDB8561BA0265AA29910A /* PopupDialogButton.swift */,
+				E6FAF1C1E3A39BCB966DA354F8EF3E63 /* PopupDialogContainerView.swift */,
+				5D60D0ABCBC25CF68A01E590D3316696 /* PopupDialogDefaultButtons.swift */,
+				C4BF6D8C7A158E0BB47AF3525D56AA59 /* PopupDialogDefaultView.swift */,
+				63BED2D64070E03828B41D3E6D19296F /* PopupDialogDefaultViewController.swift */,
+				5D96E5B5E119D68BAB1B0C608E44EF8E /* PopupDialogOverlayView.swift */,
+				ECFA6D3DA0BA917026A5DDE97D0B8C03 /* PresentationController.swift */,
+				79F1B8AC2D4C3EB939E437DDFA75BDED /* PresentationManager.swift */,
+				B4052A342988190A219FEA3DA69A65BD /* TransitionAnimations.swift */,
+				7CB1F0101662D08E2BA26838C0879C7E /* TransitionAnimator.swift */,
+				BA0078E792E0B575A0993535750470F7 /* UIImageView+Calculations.swift */,
+				FAD54C43DF41DDA818B8E5A5B227528C /* UIView+Animations.swift */,
+				DEA61F89F1F9DBBC27BA407AE1B64D89 /* UIViewController+Visibility.swift */,
+				F3A7164EE548C6173CCCCA0A875B6A4D /* Support Files */,
+			);
+			name = PopupDialog;
+			path = PopupDialog;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		536D99E17FE7B11F3450B6B7CD2D771A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AAF612F4BD7A82C7D35D65F0C89FD143 /* GTProgressBar-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		57DE3C80D6652EE33541ADC412D7DC8C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C96F7D98B1232C27A8D70B54A2D463D0 /* Pods-LeopardTrails-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		87353A53FB8FA55F6215AC51654C8C0E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -545,6 +516,22 @@
 			files = (
 				18643D4F9BC327B1E5B9175F4260AC0E /* DynamicBlurView-umbrella.h in Headers */,
 				08452A247B58228DFFC77D7BA30DD668 /* DynamicBlurView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D52242B9CAC06555B10502FE7A9A3D12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F83DEF0A06BA6E25F409B568AD296C6 /* TransitionButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0CA5D81002ED17A97E9FF0292FC772 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AB07DD1F6DC27EB173E6107012C7216 /* Pods-LeopardTrails-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,42 +595,42 @@
 		};
 		B685898CC89D4CAE36EBC08A7AC1FAF1 /* Pods-LeopardTrails */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E0554B4C69DC694CE6F1FA8DF08B86B /* Build configuration list for PBXNativeTarget "Pods-LeopardTrails" */;
+			buildConfigurationList = EE635EBC531CA5B2922AF7CDF926BAF0 /* Build configuration list for PBXNativeTarget "Pods-LeopardTrails" */;
 			buildPhases = (
-				57DE3C80D6652EE33541ADC412D7DC8C /* Headers */,
-				E6CFA127CBC4F964D13A1790C4AD16F6 /* Sources */,
-				03A553EDB4C0614DD6A26F164029FA12 /* Frameworks */,
-				1069A8C2AF638555191966D3954A66FF /* Resources */,
+				EB0CA5D81002ED17A97E9FF0292FC772 /* Headers */,
+				8B8691DAB69CBAE3B389539D32467E12 /* Sources */,
+				908413C9ED1F49B6AA66FD3EA80F9AB6 /* Frameworks */,
+				1C13FB6957CAF7FCD2715B26227D0F0F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F08F930BB92E84294E7438037DA67959 /* PBXTargetDependency */,
-				AC478AC484A34DFD6DA0A599EB74077C /* PBXTargetDependency */,
-				D6278FD5A412C2D014693805AC21196D /* PBXTargetDependency */,
-				D918C7A94ABBBC00158CA9C05214961C /* PBXTargetDependency */,
+				5BF8BDA8031471E8F917E28369CA6D4D /* PBXTargetDependency */,
+				4480DEB81128BAF11BEFABE59DD63C8E /* PBXTargetDependency */,
+				449404F77CE832934AF50F051D01A204 /* PBXTargetDependency */,
+				E274E4ABC0A93BEE46AE674A72AB22C7 /* PBXTargetDependency */,
 			);
 			name = "Pods-LeopardTrails";
 			productName = "Pods-LeopardTrails";
 			productReference = 5E950635DA0482CAACCAA775DD8A9878 /* Pods_LeopardTrails.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		EE515A07ACC0A4FB01FC1FBE347BC45C /* GTProgressBar */ = {
+		E30FF5B0268E3027AF18D788DB9BB7E7 /* TransitionButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCAB27C96E8D53CA89C28ADAE17715B6 /* Build configuration list for PBXNativeTarget "GTProgressBar" */;
+			buildConfigurationList = 0C6C59D404DDBAFD4B5120141C22D8FA /* Build configuration list for PBXNativeTarget "TransitionButton" */;
 			buildPhases = (
-				536D99E17FE7B11F3450B6B7CD2D771A /* Headers */,
-				917CAC65224F599B706521D8B22CFEA1 /* Sources */,
-				384242EED5281D4B6D9D8B2178AD6788 /* Frameworks */,
-				ED4F525B1D0986C0FAF86954E6FD9199 /* Resources */,
+				D52242B9CAC06555B10502FE7A9A3D12 /* Headers */,
+				4BD1290F068C338E45EB4F11D675ADA8 /* Sources */,
+				E6254D7F09D1D67099DBD37D879DE85B /* Frameworks */,
+				ED4D7D85230DDC7DC0C05FCB1F90AA77 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GTProgressBar;
-			productName = GTProgressBar;
-			productReference = 3174873BAC84A271B68FC8EB295DB0C2 /* GTProgressBar.framework */;
+			name = TransitionButton;
+			productName = TransitionButton;
+			productReference = 5F6BA03A0925860EA21A0CB5F550E9CB /* TransitionButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -663,21 +650,21 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C99A7F673EBB993484FA1F0B578CE7E4 /* Products */;
+			productRefGroup = 13ABF038FF77226E43120962DDB729BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3D151B72D5CE9336C8AD8927D077A295 /* ALCameraViewController */,
 				7D914FA2F03C860D5133BA2DB87C594A /* DynamicBlurView */,
-				EE515A07ACC0A4FB01FC1FBE347BC45C /* GTProgressBar */,
 				B685898CC89D4CAE36EBC08A7AC1FAF1 /* Pods-LeopardTrails */,
 				6E71929B582F8CD57B3DC1FD6560F047 /* PopupDialog */,
+				E30FF5B0268E3027AF18D788DB9BB7E7 /* TransitionButton */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1069A8C2AF638555191966D3954A66FF /* Resources */ = {
+		1C13FB6957CAF7FCD2715B26227D0F0F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -698,7 +685,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED4F525B1D0986C0FAF86954E6FD9199 /* Resources */ = {
+		ED4D7D85230DDC7DC0C05FCB1F90AA77 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -742,6 +729,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4BD1290F068C338E45EB4F11D675ADA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8493869A7A6C202D77C239D038D12C8B /* CGRectExtension.swift in Sources */,
+				C2F6E646900EED6A1D186A193E4E3C25 /* CustomTransitionViewController.swift in Sources */,
+				AC9A14805175C5BD7C93CDAED29B45BE /* FadeTransition.swift in Sources */,
+				6CD744CE23989E0EDCA90B4D68A69B11 /* SpinerLayer.swift in Sources */,
+				027C7FA71AAA3C7BD9D865F65E91778B /* TransitionButton-dummy.m in Sources */,
+				5F4B18C14A0E355E6495D36CA31B07E2 /* TransitionButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64D4719150E9FEC3CDDBB82624177D73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -757,21 +757,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		917CAC65224F599B706521D8B22CFEA1 /* Sources */ = {
+		8B8691DAB69CBAE3B389539D32467E12 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9671885B203D6107F57B59FAEF89E1BD /* FrameCalculator.swift in Sources */,
-				3342A89CA6A25F19E6DC3E5B90073677 /* GTProgressBar-dummy.m in Sources */,
-				869A6850C71976FBCEAE6B3B8B4C7C62 /* GTProgressBar.swift in Sources */,
-				B98226F16B9FE19442ED20B25E9BC33D /* GTProgressBarCornerType.swift in Sources */,
-				58C06A6966CEB4A6585B3C9F47DA97F0 /* GTProgressBarDirection.swift in Sources */,
-				6BAE027DD45D7CFC7622AE231E1DCCEE /* GTProgressBarLabelPosition.swift in Sources */,
-				F74CEC08962FE2C8DFE0E70828EFF8CA /* GTProgressBarOrientation.swift in Sources */,
-				47628893EDED391C4C3D7A8F123B5851 /* HorizontalLabelPositionFrameCalculator.swift in Sources */,
-				3141AFA9524FC6CB02F4A51DFC72726C /* UILabelExtensions.swift in Sources */,
-				16CE61F77A1F1ACAF8B35B92B624A0D1 /* UIViewExtensions.swift in Sources */,
-				D5A01C359677E94FD50841ABEABA5EBF /* VerticalLabelPositionFrameCalculator.swift in Sources */,
+				FC59C24DC46931A3BC12E00A90802E01 /* Pods-LeopardTrails-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -802,53 +792,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6CFA127CBC4F964D13A1790C4AD16F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				97AD18CFF3BE6B92432DB0798ACA671D /* Pods-LeopardTrails-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4480DEB81128BAF11BEFABE59DD63C8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamicBlurView;
+			target = 7D914FA2F03C860D5133BA2DB87C594A /* DynamicBlurView */;
+			targetProxy = 8F4B50C4545463BF39FF30398D8524C3 /* PBXContainerItemProxy */;
+		};
+		449404F77CE832934AF50F051D01A204 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PopupDialog;
+			target = 6E71929B582F8CD57B3DC1FD6560F047 /* PopupDialog */;
+			targetProxy = 787A9D31B5DC3031C8B11302D1582098 /* PBXContainerItemProxy */;
+		};
+		5BF8BDA8031471E8F917E28369CA6D4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ALCameraViewController;
+			target = 3D151B72D5CE9336C8AD8927D077A295 /* ALCameraViewController */;
+			targetProxy = 77E7A7EE460288D612DC4A78E105F2F4 /* PBXContainerItemProxy */;
+		};
 		7A0F55816EC0A47F2B5F6C7CA549559A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DynamicBlurView;
 			target = 7D914FA2F03C860D5133BA2DB87C594A /* DynamicBlurView */;
 			targetProxy = 2763FCA98104FEE93EB4E54D32DDF454 /* PBXContainerItemProxy */;
 		};
-		AC478AC484A34DFD6DA0A599EB74077C /* PBXTargetDependency */ = {
+		E274E4ABC0A93BEE46AE674A72AB22C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = DynamicBlurView;
-			target = 7D914FA2F03C860D5133BA2DB87C594A /* DynamicBlurView */;
-			targetProxy = EBCE395175BBB658F3150C4B6999BE36 /* PBXContainerItemProxy */;
-		};
-		D6278FD5A412C2D014693805AC21196D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GTProgressBar;
-			target = EE515A07ACC0A4FB01FC1FBE347BC45C /* GTProgressBar */;
-			targetProxy = 7A8F37219B84F2F0311664C9F1FDDF80 /* PBXContainerItemProxy */;
-		};
-		D918C7A94ABBBC00158CA9C05214961C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PopupDialog;
-			target = 6E71929B582F8CD57B3DC1FD6560F047 /* PopupDialog */;
-			targetProxy = AF36E94CD89AC7009958427FD5151DB5 /* PBXContainerItemProxy */;
-		};
-		F08F930BB92E84294E7438037DA67959 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ALCameraViewController;
-			target = 3D151B72D5CE9336C8AD8927D077A295 /* ALCameraViewController */;
-			targetProxy = 8A38AFF41150D89FB02150A0A03DAE88 /* PBXContainerItemProxy */;
+			name = TransitionButton;
+			target = E30FF5B0268E3027AF18D788DB9BB7E7 /* TransitionButton */;
+			targetProxy = AAA8B9619CF70E5CB3ABFA403A642FC9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		007387143DF96735A6244DDAC76A6949 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EA521EB81F982464638A088B1781C2E /* DynamicBlurView.xcconfig */;
+			baseConfigurationReference = E6B760E78C4CF1CEE699C26D0CFA98B7 /* DynamicBlurView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -884,7 +866,7 @@
 		};
 		0D4510BA86E088F19147060A9B0C3960 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13E48BCEAAF4FCB7E3C1847042927914 /* PopupDialog.xcconfig */;
+			baseConfigurationReference = 2331D0FE090D2E755F7D71FDCBDEF1F5 /* PopupDialog.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -919,7 +901,7 @@
 		};
 		0FA88438CF675D26F485314DD737CC23 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13E48BCEAAF4FCB7E3C1847042927914 /* PopupDialog.xcconfig */;
+			baseConfigurationReference = 2331D0FE090D2E755F7D71FDCBDEF1F5 /* PopupDialog.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -946,42 +928,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		17118ADF0287ABF72B5A8B10AC00732B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A76EF1634F2D6A1EBAA7B38EB5C61328 /* GTProgressBar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GTProgressBar/GTProgressBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GTProgressBar/GTProgressBar-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/GTProgressBar/GTProgressBar.modulemap";
-				PRODUCT_MODULE_NAME = GTProgressBar;
-				PRODUCT_NAME = GTProgressBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1053,7 +999,41 @@
 			};
 			name = Debug;
 		};
-		6408030E04FD6C7C41361B7BAA110930 /* Release */ = {
+		6D7A537F3751229AEEE45C01E50C5377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F219E913BA27BFD773B7511F0FB835FF /* ALCameraViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ALCameraViewController/ALCameraViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALCameraViewController/ALCameraViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ALCameraViewController/ALCameraViewController.modulemap";
+				PRODUCT_MODULE_NAME = ALCameraViewController;
+				PRODUCT_NAME = ALCameraViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E29B1AEDD50C3255FA29C619D47A556 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C98E63B77946880AE04E5BF67553EBC /* Pods-LeopardTrails.release.xcconfig */;
 			buildSettings = {
@@ -1092,81 +1072,9 @@
 			};
 			name = Release;
 		};
-		6D7A537F3751229AEEE45C01E50C5377 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38AB15DB03AAC4ABB6E10DF24CC360D3 /* ALCameraViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ALCameraViewController/ALCameraViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ALCameraViewController/ALCameraViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/ALCameraViewController/ALCameraViewController.modulemap";
-				PRODUCT_MODULE_NAME = ALCameraViewController;
-				PRODUCT_NAME = ALCameraViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7472BA8CA78F46B703D64AB6F82FF3F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1D1BB2CC1D92B1F43FEC378C1D5252D /* Pods-LeopardTrails.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LeopardTrails/Pods-LeopardTrails-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LeopardTrails/Pods-LeopardTrails.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		82A8949CFA9005F7C316D5D1EC2DFE47 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38AB15DB03AAC4ABB6E10DF24CC360D3 /* ALCameraViewController.xcconfig */;
+			baseConfigurationReference = F219E913BA27BFD773B7511F0FB835FF /* ALCameraViewController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1199,9 +1107,9 @@
 			};
 			name = Release;
 		};
-		851FE54A89EBF20A40143AFD5CC7D66C /* Debug */ = {
+		A5C817F83FFA5F2778AD9A0A966F4BFD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A76EF1634F2D6A1EBAA7B38EB5C61328 /* GTProgressBar.xcconfig */;
+			baseConfigurationReference = 9C329A7C1633CD9A4BE785F9236A493D /* TransitionButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1212,18 +1120,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GTProgressBar/GTProgressBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GTProgressBar/GTProgressBar-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TransitionButton/TransitionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TransitionButton/TransitionButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/GTProgressBar/GTProgressBar.modulemap";
-				PRODUCT_MODULE_NAME = GTProgressBar;
-				PRODUCT_NAME = GTProgressBar;
+				MODULEMAP_FILE = "Target Support Files/TransitionButton/TransitionButton.modulemap";
+				PRODUCT_MODULE_NAME = TransitionButton;
+				PRODUCT_NAME = TransitionButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1296,7 +1204,7 @@
 		};
 		E9D799643CE4F0D6A79C48D8AC0E04AA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EA521EB81F982464638A088B1781C2E /* DynamicBlurView.xcconfig */;
+			baseConfigurationReference = E6B760E78C4CF1CEE699C26D0CFA98B7 /* DynamicBlurView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1329,9 +1237,92 @@
 			};
 			name = Debug;
 		};
+		EB7168BE2696D750551734D8BC357ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1D1BB2CC1D92B1F43FEC378C1D5252D /* Pods-LeopardTrails.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LeopardTrails/Pods-LeopardTrails-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LeopardTrails/Pods-LeopardTrails.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4B1F5826D65B4FABC3B85C3DE00091E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C329A7C1633CD9A4BE785F9236A493D /* TransitionButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TransitionButton/TransitionButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TransitionButton/TransitionButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TransitionButton/TransitionButton.modulemap";
+				PRODUCT_MODULE_NAME = TransitionButton;
+				PRODUCT_NAME = TransitionButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C6C59D404DDBAFD4B5120141C22D8FA /* Build configuration list for PBXNativeTarget "TransitionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C817F83FFA5F2778AD9A0A966F4BFD /* Debug */,
+				F4B1F5826D65B4FABC3B85C3DE00091E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3C824956660F94A02DB7586D859AC471 /* Build configuration list for PBXNativeTarget "ALCameraViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1346,15 +1337,6 @@
 			buildConfigurations = (
 				196DFA3E4A09A28224918543529A1885 /* Debug */,
 				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4E0554B4C69DC694CE6F1FA8DF08B86B /* Build configuration list for PBXNativeTarget "Pods-LeopardTrails" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7472BA8CA78F46B703D64AB6F82FF3F4 /* Debug */,
-				6408030E04FD6C7C41361B7BAA110930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1377,11 +1359,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCAB27C96E8D53CA89C28ADAE17715B6 /* Build configuration list for PBXNativeTarget "GTProgressBar" */ = {
+		EE635EBC531CA5B2922AF7CDF926BAF0 /* Build configuration list for PBXNativeTarget "Pods-LeopardTrails" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				851FE54A89EBF20A40143AFD5CC7D66C /* Debug */,
-				17118ADF0287ABF72B5A8B10AC00732B /* Release */,
+				EB7168BE2696D750551734D8BC357ED4 /* Debug */,
+				7E29B1AEDD50C3255FA29C619D47A556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

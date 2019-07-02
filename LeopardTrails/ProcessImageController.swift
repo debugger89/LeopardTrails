@@ -11,25 +11,39 @@ import CoreImage
 import PopupDialog
 
 class ProcessImageController: UIViewController {
-
+    
     var capturedimage:UIImage!;
     
     @IBOutlet weak var capturedImageView: UIImageView!
-
+    
     @IBOutlet weak var progressBar: UIProgressView!
     
     var progress : Progress!;
+
+    @IBOutlet weak var identifyBtn: UIButton!
     
+    @IBOutlet weak var retakeBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         capturedImageView.image = capturedimage;
         
+       
         // Start progress from 0
         progress = Progress(totalUnitCount: 0)
         progressBar.progress = 0.0
         progress.completedUnitCount = 0
         progressBar.setProgress(Float(progress.fractionCompleted), animated: true)
+        
+    }
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        identifyBtn.layer.cornerRadius = 0.1 * identifyBtn.frame.width
+        
+        retakeBtn.layer.borderWidth = 0.8;
+        retakeBtn.layer.borderColor = identifyBtn.layer.backgroundColor
+        retakeBtn.layer.cornerRadius = 0.1 * retakeBtn.frame.width
     }
     
     
@@ -61,11 +75,13 @@ class ProcessImageController: UIViewController {
                 
             }
             
-             //complete the progress bar
+            //complete the progress bar
             DispatchQueue.main.async { () -> Void in
-                 self.progressBar.setProgress(1, animated: true)
+                self.progressBar.setProgress(1, animated: true)
+                
+                
             }
-           
+            
             // let matchedName = OpenCVWrapper.matchLeopard( capturedimage);
             if(matchedName == ""){
                 matchedName = "Not found in the database"
@@ -76,7 +92,21 @@ class ProcessImageController: UIViewController {
         }
         
         
-       
+        
+    }
+    
+    func readJsonLeopardData() -> [LeopardDetailsModel]{
+        
+        var leopardMap : [LeopardDetailsModel]!
+        
+        let url = Bundle.main.url(forResource: "id_map", withExtension: "json")!
+        do {
+            let data = try Data(contentsOf: url)
+            leopardMap = try JSONDecoder().decode([LeopardDetailsModel].self, from: data)
+        } catch {
+            print(error)
+        }
+        return leopardMap
     }
     
     

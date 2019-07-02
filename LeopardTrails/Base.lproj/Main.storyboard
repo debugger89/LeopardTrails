@@ -34,52 +34,63 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ayq-jv-x2k">
-                                <rect key="frame" x="0.0" y="20" width="375" height="575"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="KEC-i2-auI" userLabel="Vertical Stack View">
-                                <rect key="frame" x="16" y="615" width="367" height="38.5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="KEC-i2-auI" userLabel="Vertical Stack View">
+                                <rect key="frame" x="0.0" y="622" width="375" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
                                 <subviews>
-                                    <progressView opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="sxv-Dy-dXX">
-                                        <rect key="frame" x="0.0" y="0.0" width="367" height="2.5"/>
-                                    </progressView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="dWB-Nb-AHF" userLabel="Button Stack View">
-                                        <rect key="frame" x="0.0" y="6.5" width="367" height="32"/>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" distribution="fillEqually" alignment="center" spacing="85" translatesAutoresizingMaskIntoConstraints="NO" id="dWB-Nb-AHF" userLabel="Button Stack View">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="32"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGg-P0-deq">
-                                                <rect key="frame" x="0.0" y="0.0" width="177.5" height="32"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                                <state key="normal" title="Identify Leopard"/>
-                                                <connections>
-                                                    <action selector="identifyLeopard:" destination="hnn-NM-uWf" eventType="touchUpInside" id="WGR-9a-XGg"/>
-                                                </connections>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dcp-FB-gs4">
-                                                <rect key="frame" x="189.5" y="0.0" width="177.5" height="32"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="145" height="32"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <state key="normal" title="Retake Image">
-                                                    <color key="titleColor" red="0.89813512563705444" green="0.22835263254964958" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="titleColor" red="0.86961747667332379" green="0.07339016184287564" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="BYZ-38-t0r" kind="show" id="26G-tr-n0K"/>
                                                 </connections>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vGg-P0-deq">
+                                                <rect key="frame" x="230" y="0.5" width="145" height="31"/>
+                                                <color key="backgroundColor" red="1" green="0.4373558275359628" blue="0.0" alpha="0.93895796654929575" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="  Identify &gt; ">
+                                                            <attributes>
+                                                                <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <font key="NSFont" metaFont="system" size="16"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                </state>
+                                                <connections>
+                                                    <action selector="identifyLeopard:" destination="hnn-NM-uWf" eventType="touchUpInside" id="WGR-9a-XGg"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
-                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </stackView>
+                                    <progressView opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" verticalHuggingPriority="750" preservesSuperviewLayoutMargins="YES" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="sxv-Dy-dXX">
+                                        <rect key="frame" x="0.0" y="42" width="375" height="2.5"/>
+                                        <color key="progressTintColor" red="0.0" green="0.45535258030026693" blue="0.090565943651882932" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </progressView>
                                 </subviews>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="L5L-HD-rt7"/>
                     </view>
                     <navigationItem key="navigationItem" id="Phy-DG-fBi"/>
                     <connections>
                         <outlet property="capturedImageView" destination="ayq-jv-x2k" id="Guh-xL-ONb"/>
+                        <outlet property="identifyBtn" destination="vGg-P0-deq" id="PJu-oA-3EN"/>
                         <outlet property="progressBar" destination="sxv-Dy-dXX" id="znW-xO-XKQ"/>
+                        <outlet property="retakeBtn" destination="Dcp-FB-gs4" id="JJx-C9-Moe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6bv-Qt-mqP" userLabel="First Responder" sceneMemberID="firstResponder"/>

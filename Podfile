@@ -7,6 +7,5 @@ target 'LeopardTrails' do
 
   # Pods for LeopardTrails
   pod 'ALCameraViewController'
-  pod 'GTProgressBar'
   pod 'PopupDialog', '~> 1.0.0'
 end

@@ -53,9 +53,10 @@ SOFTWARE.
 
 
 
-## GTProgressBar
+## PopupDialog
 
-Copyright (c) 2016 gregttn <gregttn@gmail.com>
+Copyright (c) 2016 Orderella Ltd. (http://orderella.co.uk)
+Author - Martin Wildfeuer (http://www.mwfire.de)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -76,10 +77,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## PopupDialog
+## TransitionButton
 
-Copyright (c) 2016 Orderella Ltd. (http://orderella.co.uk)
-Author - Martin Wildfeuer (http://www.mwfire.de)
+Copyright (c) 2017 Alaeddine M. <itechnodev@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

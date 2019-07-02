@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double GTProgressBarVersionNumber;
-FOUNDATION_EXPORT const unsigned char GTProgressBarVersionString[];
+FOUNDATION_EXPORT double TransitionButtonVersionNumber;
+FOUNDATION_EXPORT const unsigned char TransitionButtonVersionString[];
 

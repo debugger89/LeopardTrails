@@ -18,21 +18,21 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>GTProgressBar.xcscheme</key>
+		<key>Pods-LeopardTrails.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>Pods-LeopardTrails.xcscheme</key>
+		<key>PopupDialog.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>PopupDialog.xcscheme</key>
+		<key>TransitionButton.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
