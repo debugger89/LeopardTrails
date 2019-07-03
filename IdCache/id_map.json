@@ -1,1 +1,30 @@
-
+{
+    "RootLCountryMap": [
+        {
+            "country": "Sri Lanka",
+            "nationalPark": "YALA",
+            "leopards": [
+                {
+                    "id": "YF27_MAY",
+                    "name": "May",
+                    "description": "Gender : Female",
+                    "idPath": "IdImages/YF27_MAY.png",
+                    "location": "Yala National Park"
+                }
+            ]
+        },
+        {
+            "country": "Sri Lanka",
+            "nationalPark": "WILPATTU",
+            "leopards": [
+                {
+                    "id": "WP001_A1",
+                    "name": "Unknown",
+                    "description": "Gender : Male",
+                    "idPath": "IdImages/YF27_MAY.png",
+                    "location": "Wilpattu National Park"
+                }
+            ]
+        }
+    ]
+}
