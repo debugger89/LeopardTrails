@@ -49,6 +49,9 @@ class ProcessImageController: UIViewController {
     
     @IBAction func identifyLeopard(_ sender: UIButton) {
         
+        let mapper :LeopardJsonMapper = LeopardJsonMapper();
+        mapper.loadJson(filename: "")
+        
         // get All Ids for matching
         let idList = OpenCVWrapper.getListOfIDs();
         
@@ -95,19 +98,7 @@ class ProcessImageController: UIViewController {
         
     }
     
-    func readJsonLeopardData() -> [LeopardDetailsModel]{
-        
-        var leopardMap : [LeopardDetailsModel]!
-        
-        let url = Bundle.main.url(forResource: "id_map", withExtension: "json")!
-        do {
-            let data = try Data(contentsOf: url)
-            leopardMap = try JSONDecoder().decode([LeopardDetailsModel].self, from: data)
-        } catch {
-            print(error)
-        }
-        return leopardMap
-    }
+    
     
     
     func showImageDialog(animated: Bool = true, title:String, message:String) {
