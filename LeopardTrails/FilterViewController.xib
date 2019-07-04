@@ -11,6 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FilterViewController" customModule="LeopardTrails" customModuleProvider="target">
             <connections>
+                <outlet property="nationalParkPicker" destination="CFF-DT-b6a" id="eeD-ms-0Wa"/>
+                <outlet property="searchSensitivity" destination="hjR-Bt-6Ae" id="eR0-OD-ECs"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -75,7 +77,7 @@
                 <constraint firstAttribute="trailing" secondItem="IS1-mO-qkH" secondAttribute="trailing" constant="-10" id="rlD-9w-zuN"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="115.94202898550725" y="171.09375"/>
+            <point key="canvasLocation" x="-225" y="158"/>
         </view>
     </objects>
 </document>
