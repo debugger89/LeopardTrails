@@ -2,4 +2,4 @@ ${PODS_ROOT}/Target Support Files/Pods-LeopardTrails/Pods-LeopardTrails-framewor
 ${BUILT_PRODUCTS_DIR}/ALCameraViewController/ALCameraViewController.framework
 ${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework
 ${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework
-${BUILT_PRODUCTS_DIR}/TransitionButton/TransitionButton.framework
+${BUILT_PRODUCTS_DIR}/Presentr/Presentr.framework
