@@ -16,8 +16,12 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)openCVVersionString;
 + (NSString *)matchLeopard:(UIImage *)image;
 + (NSArray *)getListOfIDs;
++ (NSArray *)getListOfIDs:(NSString *)nationalParkName;
 + (NSString *)matchSpecificLeopardWithID:(UIImage *)image idPath:(NSString *) imageString;
++ (NSString *)matchTest:(NSString *)targetImage idPath:(NSString *) idImage;
+    
 
+    
 @end
 
 NS_ASSUME_NONNULL_END
