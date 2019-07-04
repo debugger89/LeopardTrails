@@ -18,10 +18,10 @@
             "nationalPark": "WILPATTU",
             "leopards": [
                 {
-                    "id": "WP001_A1",
-                    "name": "Unknown",
+                    "id": "NWMC5",
+                    "name": "Nelum Wila Male Cub 5",
                     "description": "Gender : Male",
-                    "idPath": "IdImages/YF27_MAY.png",
+                    "idPath": "",
                     "location": "Wilpattu National Park"
                 }
             ]
