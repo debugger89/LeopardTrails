@@ -9,6 +9,7 @@
 import UIKit
 import CoreImage
 import PopupDialog
+import Presentr;
 
 class ProcessImageController: UIViewController {
     
@@ -21,6 +22,21 @@ class ProcessImageController: UIViewController {
     var progress : Progress!;
 
     @IBOutlet weak var identifyBtn: UIButton!
+    
+    
+    @IBAction func viewFilterSettings(_ sender: Any) {
+        
+        let presenter = Presentr(presentationType: .popup)
+        presenter.transitionType = .coverVerticalFromTop
+        presenter.dismissTransitionType = .coverVerticalFromTop
+        
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let filterController = storyBoard.instantiateViewController(withIdentifier: "FilterViewController") as! FilterViewController
+        
+       // let filterController = FilterViewController()
+        customPresentViewController(presenter, viewController: filterController, animated: true, completion: nil)
+        
+    }
     
     @IBOutlet weak var retakeBtn: UIButton!
     
@@ -47,13 +63,18 @@ class ProcessImageController: UIViewController {
     }
     
     
+    @IBAction func optimizeSearch(_ sender: UIButton) {
+        
+        showFilterDialog()
+    }
+    
     @IBAction func identifyLeopard(_ sender: UIButton) {
         
-        let mapper :LeopardJsonMapper = LeopardJsonMapper();
-        mapper.loadJson(filename: "")
+        let currentNP = "WILPATTU"
+        
         
         // get All Ids for matching
-        let idList = OpenCVWrapper.getListOfIDs();
+        let idList = OpenCVWrapper.getListOfIDs(currentNP);
         
         var matchedName:String!;
         
@@ -64,6 +85,7 @@ class ProcessImageController: UIViewController {
             for id in idList {
                 
                 matchedName = OpenCVWrapper.matchSpecificLeopard(withID: self.capturedimage, idPath: id as! String);
+               
                 if(matchedName != ""){
                     break;
                 }
@@ -85,23 +107,45 @@ class ProcessImageController: UIViewController {
                 
             }
             
-            // let matchedName = OpenCVWrapper.matchLeopard( capturedimage);
-            if(matchedName == ""){
-                matchedName = "Not found in the database"
+            var description = "Not found in the database"
+            var title = "Not Found"
+            
+            if(matchedName != ""){
+                let matchedLeopard = self.resolveMatchedLeopardData(matchedId: matchedName, currentNationaPark: currentNP)
+                if(matchedLeopard == nil){
+                    description = matchedName
+                    title = matchedName
+                }else{
+                    description = matchedLeopard!.description
+                    title = matchedLeopard!.name
+                }
             }
             
-            
-            self.showImageDialog(title:"- Match Result -", message:matchedName);
+            self.showResultDialog(title:title, message:description);
         }
         
         
         
     }
     
+    func resolveMatchedLeopardData(matchedId : String, currentNationaPark : String) -> LeopardJsonMapper.Leopard?{
+        
+        let mapper :LeopardJsonMapper = LeopardJsonMapper();
+        let rootData = mapper.loadJson(filename: "id_map")
+        let leopardList:[LeopardJsonMapper.Leopard] = rootData!.getMapForNationalPark(nationalParkName: currentNationaPark) ?? []
+        
+        for leopard in leopardList {
+            if(matchedId.caseInsensitiveCompare(leopard.id) == .orderedSame){
+                return leopard
+            }
+        }
+        return nil
+    }
     
     
     
-    func showImageDialog(animated: Bool = true, title:String, message:String) {
+    
+    func showResultDialog(animated: Bool = true, title:String, message:String) {
         
         
         let image = capturedimage;
@@ -119,6 +163,31 @@ class ProcessImageController: UIViewController {
         
         // Present dialog
         self.present(popup, animated: animated, completion: nil)
+    }
+    
+    
+    func showFilterDialog(animated: Bool = true) {
+        
+        // Create a custom view controller
+        let filterVC = FilterViewController(nibName: nil, bundle: nil)
+        
+        // Create the dialog
+        let popup = PopupDialog(viewController: filterVC,
+                                buttonAlignment: .horizontal,
+                                transitionStyle: .bounceDown,
+                                tapGestureDismissal: true,
+                                panGestureDismissal: false)
+        
+        // Create first button
+        let buttonOne = CancelButton(title: "OK", height: 60) {
+          // Set the user defaults here
+        }
+
+        // Add buttons to dialog
+        popup.addButtons([buttonOne])
+        
+        // Present dialog
+        present(popup, animated: animated, completion: nil)
     }
     
     
