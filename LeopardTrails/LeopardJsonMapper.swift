@@ -11,23 +11,33 @@ import Foundation
 
 class LeopardJsonMapper {
     
-    struct LeopardDetailsRoot: Decodable {
+    class LeopardDetailsRoot: Decodable {
         
         let RootLCountryMap : [LeopardDetailsPark]
         
+        func getMapForNationalPark(nationalParkName:String ) -> [Leopard]? {
+            
+            for park in RootLCountryMap{
+                if(park.nationalPark.caseInsensitiveCompare(nationalParkName)  == .orderedSame){
+                    return park.leopards;
+                }
+            }
+            
+            return nil;
+        }
     }
     
     struct LeopardDetailsPark: Decodable {
         
         let country : String
         let nationalPark : String
-        let leopards : [Leopards]
+        let leopards : [Leopard]
         
         
         
     }
     
-    struct Leopards : Decodable {
+    struct Leopard : Decodable {
         
         var id : String
         var name : String
