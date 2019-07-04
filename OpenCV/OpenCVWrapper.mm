@@ -39,6 +39,15 @@ NSUInteger MIN_MATCH_COUNT = 10;
     
     return ids;
 }
+    
++ (NSArray *)getListOfIDs: (NSString* )nationalParkName{
+    
+    NSString *directory = [NSString stringWithFormat:[@"IdImages/" stringByAppendingString:nationalParkName]];
+    NSArray *ids = [[NSBundle mainBundle] pathsForResourcesOfType:@"png" inDirectory:directory];
+    NSLog(@"%@", ids);
+    
+    return ids;
+}
 
 
 + (NSString *)testSIFT {
@@ -64,7 +73,32 @@ NSUInteger MIN_MATCH_COUNT = 10;
             
             NSString *matchedName = [imageString substringWithRange:NSMakeRange(lastSlashIndex.location + 1 , (lastDotIndex.location - lastSlashIndex.location - 1))];
             
+            idImage = nil;
+            image = nil;
             return matchedName;
+        }else{
+            idImage = nil;
+            image = nil;
+            return nil;
+        }
+        
+    }
+}
+    
++ (NSString *)matchTest:(NSString *)targetImage idPath:(NSString *) idImage; {
+    
+    @autoreleasepool {
+        
+        
+        UIImage *targetImageImg = [[UIImage alloc] initWithContentsOfFile: targetImage];
+        UIImage *idImageImg = [[UIImage alloc] initWithContentsOfFile: idImage];
+        
+        BOOL matched = [self compareAndMatchImages:idImageImg target_image:targetImageImg];
+        if(matched) {
+            
+            printf("Matched !!");
+            
+            return @"matched";
         }else{
             return nil;
         }
@@ -99,8 +133,8 @@ NSUInteger MIN_MATCH_COUNT = 10;
     UIImageToMat(id_image, id_mat);
     UIImageToMat(target_image, target_mat);
     
-    cv::resize(id_mat, id_mat, cv::Size(), 0.30, 0.30);
-    cv::resize(target_mat, target_mat, cv::Size(), 0.10, 0.10);
+    //cv::resize(id_mat, id_mat, cv::Size(), 0.30, 0.30);
+    cv::resize(target_mat, target_mat, cv::Size(), 0.50, 0.50);
     
     cv::Ptr<cv::Feature2D> f2d = cv::xfeatures2d::SiftFeatureDetector::create();
     
