@@ -133,8 +133,10 @@ NSUInteger MIN_MATCH_COUNT = 10;
     UIImageToMat(id_image, id_mat);
     UIImageToMat(target_image, target_mat);
     
+    float sensitivity = [[[NSUserDefaults standardUserDefaults] stringForKey:@"SENSITIVITY"] floatValue];
+    
     //cv::resize(id_mat, id_mat, cv::Size(), 0.30, 0.30);
-    cv::resize(target_mat, target_mat, cv::Size(), 0.50, 0.50);
+    cv::resize(target_mat, target_mat, cv::Size(), sensitivity, sensitivity);
     
     cv::Ptr<cv::Feature2D> f2d = cv::xfeatures2d::SiftFeatureDetector::create();
     

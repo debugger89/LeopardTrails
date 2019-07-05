@@ -17,6 +17,8 @@ class ProcessImageController: UIViewController {
     
     @IBOutlet weak var capturedImageView: UIImageView!
     
+    @IBOutlet weak var filterBtn: UIButton!
+    
     @IBOutlet weak var progressBar: UIProgressView!
     
     var progress : Progress!;
@@ -57,6 +59,8 @@ class ProcessImageController: UIViewController {
         super.viewWillLayoutSubviews()
         identifyBtn.layer.cornerRadius = 0.1 * identifyBtn.frame.width
         
+        filterBtn.layer.cornerRadius = 0.1 * filterBtn.frame.width
+        
         retakeBtn.layer.borderWidth = 0.8;
         retakeBtn.layer.borderColor = identifyBtn.layer.backgroundColor
         retakeBtn.layer.cornerRadius = 0.1 * retakeBtn.frame.width
@@ -70,8 +74,7 @@ class ProcessImageController: UIViewController {
     
     @IBAction func identifyLeopard(_ sender: UIButton) {
         
-        let currentNP = "WILPATTU"
-        
+        let currentNP = UserDefaults.standard.string(forKey: "NATIONAL_PARK") ?? "WILPATTU"
         
         // get All Ids for matching
         let idList = OpenCVWrapper.getListOfIDs(currentNP);

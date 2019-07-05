@@ -10,39 +10,55 @@ import UIKit
 import Presentr
 
 
-class FilterViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
+class FilterViewController: UIViewController {
 
-    @IBOutlet weak var nationalParksSelector: UIPickerView!
     @IBOutlet weak var sensitivitySlider: UISlider!
     @IBOutlet weak var saveBtn: UIButton!
     @IBOutlet weak var cancelBtn: UIButton!
+    @IBOutlet weak var nationalParkSegment: UISegmentedControl!
     
-    var pickerData: [String] = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.nationalParksSelector.delegate = self
-        self.nationalParksSelector.dataSource = self
+        let np = UserDefaults.standard.string(forKey: "NATIONAL_PARK") ?? "WILPATTU"
+        let sensitivity = UserDefaults.standard.string(forKey: "SENSITIVITY") ?? "0.5"
         
-        pickerData = ["YALA", "WILPATTU"]
+        if(np == "YALA"){
+            nationalParkSegment.selectedSegmentIndex = 0
+        } else if (np == "WILPATTU"){
+             nationalParkSegment.selectedSegmentIndex = 1
+        }
+        
+        
+        let sensFloat = Float(sensitivity) ?? 0.5
+        sensitivitySlider.setValue(sensFloat, animated: true)
         
     }
+    
+    @IBAction func clickCancel(_ sender: Any) {
+        
+         dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func saveConfiguration(_ sender: Any) {
+        
+        let selectedNationalPark = nationalParkSegment.titleForSegment(at: nationalParkSegment.selectedSegmentIndex)
+        let sensitivity = sensitivitySlider.value
+        
+        UserDefaults.standard.set(selectedNationalPark, forKey: "NATIONAL_PARK")
+        UserDefaults.standard.set(sensitivity, forKey: "SENSITIVITY")
+        
+        dismiss(animated: true, completion: nil)
+    }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    // Number of columns of data
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
-    }
     
-    // The number of rows of data
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return pickerData.count
-    }
     
     
     override func viewWillLayoutSubviews() {
@@ -54,13 +70,4 @@ class FilterViewController: UIViewController, UIPickerViewDelegate, UIPickerView
         cancelBtn.layer.cornerRadius = 0.1 * cancelBtn.frame.width
     }
 
-}
-
-extension FilterViewController: PresentrDelegate {
-    
-    func presentrShouldDismiss(keyboardShowing: Bool) -> Bool {
-        print("Dismissing View Controller")
-        return !keyboardShowing
-    }
-    
 }
