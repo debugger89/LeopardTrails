@@ -36,5 +36,10 @@ This application is reusing on the carefully indexed information in the [wilpatt
 </table>
 
 
+### Approach
+At the core of the application it is relying on OpenCV+related algorithms for performing the match between the image of the leopard and the id card of the leopard in our database.
+
+One of the most common ways to identify a leopard is to match the spt patterns in the face. (between eyes and ears)
+
 
 
