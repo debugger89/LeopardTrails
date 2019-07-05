@@ -69,7 +69,7 @@ No need to follow this if you do not need to change the used opencv algorithms.
 
 First major part of building the project (if you need to mess with the opencv) is building the opencv ios framework. This is one of the steps which I had to do most trial and error work.
 
-Finally, got this working with following simple set of steps as most of the tutorials online adds unnecessary complexity to these steps.
+Finally, got this working with following simple set of steps as most of the tutorials online adds unnecessary complexity to this process.
 
 - Download OpenCV source code
   - This can be cloned or downloaded from official github repo. https://github.com/opencv/opencv
