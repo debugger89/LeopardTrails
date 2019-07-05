@@ -84,7 +84,7 @@ Finally, got this working with following simple set of steps as most of the tuto
 - The opencv.framework will be created in the build folder
 
 
-#### Build and install LeopartTrails app
+#### Build and install LeopardTrails app
 
 For instaiing the app in your iPhone, 
 
