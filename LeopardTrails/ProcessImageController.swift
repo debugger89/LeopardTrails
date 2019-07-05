@@ -110,11 +110,13 @@ class ProcessImageController: UIViewController {
                 
             }
             
-            var description = "Not found in the database"
+            var description = "Not matched with the database. \n(Try increasing identification sensitivity)"
             var title = "Not Found"
             
             if(matchedName != ""){
                 let matchedLeopard = self.resolveMatchedLeopardData(matchedId: matchedName, currentNationaPark: currentNP)
+               
+                // if the matched leopard data is missin in the json print only the matched ID. fallback option
                 if(matchedLeopard == nil){
                     description = matchedName
                     title = matchedName
@@ -126,8 +128,6 @@ class ProcessImageController: UIViewController {
             
             self.showResultDialog(title:title, message:description);
         }
-        
-        
         
     }
     
