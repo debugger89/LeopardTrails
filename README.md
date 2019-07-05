@@ -38,7 +38,7 @@ This application is reusing on the carefully indexed information in the [wilpatt
 
 ### Approach
 
-One of the most common ways to identify a leopard is to match the spt patterns in the face. (between eyes and ears)
+One of the most common ways to identify a leopard is to match the spot patterns in the face. (between eyes and ears)
 
 <img src="https://github.com/debugger89/LeopardTrails/blob/master/README_ASSETS/how%20to%20identify.png" width="500">
 
