@@ -9,7 +9,7 @@ LeopardTrails is an iOS application which targets to identify the of leopards in
 When a naturalist needs to identify a leopard spotted in a national park, the means of identificating the leopard is based on the experiance and the guessworks which may lead to invalid conclusions.
 
 ### Credits
-This application is reusing on the carefully indexed information in the [wilpattu.com](https://www.wilpattu.com) and [Yala Leopard Diary Facebook group](https://www.facebook.com/groups/129638654392324/photos/?filter=albums). So the credits should go to the contributors of each source.
+This application is reusing the carefully indexed information in the [wilpattu.com](https://www.wilpattu.com) and [Yala Leopard Diary Facebook group](https://www.facebook.com/groups/129638654392324/photos/?filter=albums). So the credits should go to the contributors of each source.
 
 ### Screenshots
 
@@ -44,7 +44,7 @@ One of the most common ways to identify a leopard is to match the spot patterns 
 
 Within the app, identification of the leopard is done using a ID image saved in the database and matching the ID image with the target image.
 
-At the core we are relying on OpenCV+related algorithms for performing the match between the image of the leopard and the id card of the leopard.
+At the core we are relying on OpenCV + related algorithms for performing the match between the image of the leopard and the id card of the leopard.
 
 The ID image and the information regarding the individual is stored witin the app so it can be used without a netowrk connection (which is mandatory if you are in the bush)
 
