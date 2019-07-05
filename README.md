@@ -94,6 +94,8 @@ For instaiing the app in your iPhone,
   - Install pods for project
     - Navigate to the project root folder
     - ```pod install```
+- Unzip opencv2.framework.zip folder to the root project folder replacing the existing one
+  - After this you should have opencv2.framework (~350 MB) in your project root
 - Open ***LeopardTrails.xcworkspace*** with XCode
 - Sign the application with your provision profile
   - For more information on the code sign and provision profile you can [read this nice article](https://medium.com/@abhimuralidharan/what-is-a-provisioning-profile-in-ios-77987a7c54c2)
