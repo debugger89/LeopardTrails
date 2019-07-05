@@ -16,7 +16,7 @@ This application is reusing the carefully indexed information in the [wilpattu.c
 <table style="width:100%">
   <tr>
     <td>
-      <img src="https://github.com/debugger89/LeopardTrails/blob/master/README_ASSETS/identify%20view.png" width="300">
+      <img src="https://github.com/debugger89/LeopardTrails/blob/master/README_ASSETS/launch%20screen.png" width="300">
     </td>
     <td>
         <img src="https://github.com/debugger89/LeopardTrails/blob/master/README_ASSETS/camera%20view.png" width="300">
