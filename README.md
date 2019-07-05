@@ -57,7 +57,7 @@ The ID image and the information regarding the individual is stored witin the ap
 ## Setting up the project
 
 **Requirements :** 
-1. Mac machine (my machine specs : Apple MacBook Pro 2018 16GB i7)
+1. Mac machine (my machine specs : Apple MacBook Pro 2018 16GB i7 | MacOS Mojave 10.14.5)
 2. XCode and XCode commandline developer tools
 3. Python
 4. cmake
