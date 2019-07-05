@@ -97,7 +97,7 @@ For instaiing the app in your iPhone,
   - You can install apps for in your personal devices withut any issue.
   - There is this nice article on [this link](https://ionicframework.com/blog/deploying-to-a-device-without-an-apple-developer-account/) which describes oh how to do that step-by-step
   
-  
+ 
 
   
 
