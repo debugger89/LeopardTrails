@@ -100,8 +100,16 @@ For instaiing the app in your iPhone,
 - Build and Run the project 
 
 
-  
- 
+## Known issues
+
+- The application ui is rendererd properly only on iPhone 6/7/8 devices. Any screen size bigger or smaller might get alignment issues.
+  - Until this is fixed, please modify the **Main.storyboard** to align the ui screens properly for your device
+- Some leopards may not be recognized beacuse of the low quality images used as ID images.
+  - Please raise an issue with the leopard image which was not matched to do further troubleshooting 
+- When using maximum sensitivity for detection, there can be app crash scenarios due to the memory problems
+  - opencv is consuming a considerable amiunt of RAM and CPU during detection which may lead to an app crash
+  - Even thoughI have taken precautions to avoid this, there can be some scenarios still. 
+  - If you face such case reduce the sensitivity and try to detect again
 
   
 
