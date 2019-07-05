@@ -96,6 +96,10 @@ For instaiing the app in your iPhone,
   - For more information on the code sign and provision profile you can [read this nice article](https://medium.com/@abhimuralidharan/what-is-a-provisioning-profile-in-ios-77987a7c54c2)
   - You can install apps for in your personal devices withut any issue.
   - There is this nice article on [this link](https://ionicframework.com/blog/deploying-to-a-device-without-an-apple-developer-account/) which describes oh how to do that step-by-step
+- Set your device as the target device in Xcode
+- Build and Run the project 
+
+
   
  
 
