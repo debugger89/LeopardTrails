@@ -27,7 +27,9 @@ class FilterViewController: UIViewController {
         if(np == "YALA"){
             nationalParkSegment.selectedSegmentIndex = 0
         } else if (np == "WILPATTU"){
-             nationalParkSegment.selectedSegmentIndex = 1
+            nationalParkSegment.selectedSegmentIndex = 1
+        } else if (np == "WILPATTU_ANTON"){
+            nationalParkSegment.selectedSegmentIndex = 2
         }
         
         
