@@ -10,6 +10,8 @@
 		C7E5DC26A1C0EA2067240641 /* Pods_LeopardTrails.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CF702D4CE2858B68ED80E3 /* Pods_LeopardTrails.framework */; };
 		C88F6E4322CB514900C49E17 /* LeopardJsonMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88F6E4222CB514900C49E17 /* LeopardJsonMapper.swift */; };
 		C8961B1F22CD2AF0003271D8 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8961B1E22CD2AF0003271D8 /* FilterViewController.swift */; };
+		C8A8071B230C095A008F1F46 /* CameraTakeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A8071A230C095A008F1F46 /* CameraTakeController.swift */; };
+		C8A8071D230C09C3008F1F46 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A8071C230C09C3008F1F46 /* CropViewController.swift */; };
 		C8BFCF6E22C6150400D4ED34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BFCF6D22C6150400D4ED34 /* AppDelegate.swift */; };
 		C8BFCF7022C6150400D4ED34 /* LepordCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BFCF6F22C6150400D4ED34 /* LepordCameraViewController.swift */; };
 		C8BFCF7322C6150400D4ED34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8BFCF7122C6150400D4ED34 /* Main.storyboard */; };
@@ -33,6 +35,8 @@
 		44C539CC160ABD223ECB6B28 /* Pods-LeopardTrails.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeopardTrails.release.xcconfig"; path = "Target Support Files/Pods-LeopardTrails/Pods-LeopardTrails.release.xcconfig"; sourceTree = "<group>"; };
 		C88F6E4222CB514900C49E17 /* LeopardJsonMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeopardJsonMapper.swift; sourceTree = "<group>"; };
 		C8961B1E22CD2AF0003271D8 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		C8A8071A230C095A008F1F46 /* CameraTakeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraTakeController.swift; sourceTree = "<group>"; };
+		C8A8071C230C09C3008F1F46 /* CropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropViewController.swift; sourceTree = "<group>"; };
 		C8BFCF6A22C6150400D4ED34 /* LeopardTrails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeopardTrails.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8BFCF6D22C6150400D4ED34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8BFCF6F22C6150400D4ED34 /* LepordCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LepordCameraViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 		C8BFCF6C22C6150400D4ED34 /* LeopardTrails */ = {
 			isa = PBXGroup;
 			children = (
+				C8A8071C230C09C3008F1F46 /* CropViewController.swift */,
+				C8A8071A230C095A008F1F46 /* CameraTakeController.swift */,
 				C8BFCF6D22C6150400D4ED34 /* AppDelegate.swift */,
 				C8BFCF6F22C6150400D4ED34 /* LepordCameraViewController.swift */,
 				C8BFCF8322C6347300D4ED34 /* ProcessImageController.swift */,
@@ -273,9 +279,11 @@
 				C8961B1F22CD2AF0003271D8 /* FilterViewController.swift in Sources */,
 				C8BFCF9C22C65FAB00D4ED34 /* OpenCVWrapper.mm in Sources */,
 				C8BFCF7022C6150400D4ED34 /* LepordCameraViewController.swift in Sources */,
+				C8A8071D230C09C3008F1F46 /* CropViewController.swift in Sources */,
 				C88F6E4322CB514900C49E17 /* LeopardJsonMapper.swift in Sources */,
 				C8BFCF6E22C6150400D4ED34 /* AppDelegate.swift in Sources */,
 				C8BFCF8422C6347300D4ED34 /* ProcessImageController.swift in Sources */,
+				C8A8071B230C095A008F1F46 /* CameraTakeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

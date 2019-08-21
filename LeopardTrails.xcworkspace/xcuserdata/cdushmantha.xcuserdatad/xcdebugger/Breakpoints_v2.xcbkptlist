@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OpenCV/OpenCVWrapper.mm"
-            timestampString = "584521514.153118"
+            timestampString = "587031442.123768"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "93"
@@ -70,11 +70,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OpenCV/OpenCVWrapper.mm"
-            timestampString = "584521514.153931"
+            timestampString = "587031442.124082"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "45"
@@ -170,7 +170,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OpenCV/OpenCVWrapper.mm"
-            timestampString = "584521514.154528"
+            timestampString = "587031442.124333"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "139"
@@ -186,7 +186,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OpenCV/OpenCVWrapper.mm"
-            timestampString = "584521514.154788"
+            timestampString = "587031442.124535"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "136"
@@ -240,6 +240,366 @@
             startingLineNumber = "113"
             endingLineNumber = "113"
             landmarkName = "identifyLeopard(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeopardTrails/LepordCameraViewController.swift"
+            timestampString = "587992628.732269"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeopardTrails/LepordCameraViewController.swift"
+            timestampString = "587992628.7323411"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeopardTrails/LepordCameraViewController.swift"
+            timestampString = "587992628.732397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeopardTrails/LepordCameraViewController.swift"
+            timestampString = "587992628.732448"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeopardTrails/LepordCameraViewController.swift"
+            timestampString = "587992628.732499"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "LepordCameraViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeopardTrails/LepordCameraViewController.swift"
+            timestampString = "587992628.732548"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "LepordCameraViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeopardTrails/LepordCameraViewController.swift"
+            timestampString = "587992628.7325979"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "LepordCameraViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeopardTrails.LepordCameraViewController.imageView.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "LeopardTrails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cdushmantha/Documents/code/github/Leopard%20Trails%20IOS%20App/Swift%20App/LeopardTrails/LeopardTrails/LepordCameraViewController.swift"
+                  timestampString = "587062610.272445"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeopardTrails.LepordCameraViewController.imageView.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "LeopardTrails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cdushmantha/Documents/code/github/Leopard%20Trails%20IOS%20App/Swift%20App/LeopardTrails/LeopardTrails/LepordCameraViewController.swift"
+                  timestampString = "587062610.273827"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeopardTrails.LepordCameraViewController.imageView.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "LeopardTrails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cdushmantha/Documents/code/github/Leopard%20Trails%20IOS%20App/Swift%20App/LeopardTrails/LeopardTrails/LepordCameraViewController.swift"
+                  timestampString = "587062610.275273"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeopardTrails.LepordCameraViewController.imageView.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "LeopardTrails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cdushmantha/Documents/code/github/Leopard%20Trails%20IOS%20App/Swift%20App/LeopardTrails/LeopardTrails/LepordCameraViewController.swift"
+                  timestampString = "587062610.276685"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeopardTrails.LepordCameraViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; LeopardTrails.LepordCameraViewController"
+                  moduleName = "LeopardTrails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cdushmantha/Documents/code/github/Leopard%20Trails%20IOS%20App/Swift%20App/LeopardTrails/LeopardTrails/LepordCameraViewController.swift"
+                  timestampString = "587062610.2780581"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "600">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeopardTrails.LepordCameraViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;LeopardTrails.LepordCameraViewController&gt;"
+                  moduleName = "LeopardTrails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cdushmantha/Documents/code/github/Leopard%20Trails%20IOS%20App/Swift%20App/LeopardTrails/LeopardTrails/LepordCameraViewController.swift"
+                  timestampString = "587062610.279386"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "544">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeopardTrails/LepordCameraViewController.swift"
+            timestampString = "587992628.7326469"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "LepordCameraViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeopardTrails.LepordCameraViewController.libraryEnabled.getter : Swift.Bool"
+                  moduleName = "LeopardTrails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cdushmantha/Documents/code/github/Leopard%20Trails%20IOS%20App/Swift%20App/LeopardTrails/LeopardTrails/LepordCameraViewController.swift"
+                  timestampString = "587062610.28549"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeopardTrails.LepordCameraViewController.libraryEnabled.setter : Swift.Bool"
+                  moduleName = "LeopardTrails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cdushmantha/Documents/code/github/Leopard%20Trails%20IOS%20App/Swift%20App/LeopardTrails/LeopardTrails/LepordCameraViewController.swift"
+                  timestampString = "587062610.286777"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeopardTrails.LepordCameraViewController.libraryEnabled.modify : Swift.Bool"
+                  moduleName = "LeopardTrails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cdushmantha/Documents/code/github/Leopard%20Trails%20IOS%20App/Swift%20App/LeopardTrails/LeopardTrails/LepordCameraViewController.swift"
+                  timestampString = "587062610.288033"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeopardTrails.LepordCameraViewController.libraryEnabled.modify : Swift.Bool with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "LeopardTrails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cdushmantha/Documents/code/github/Leopard%20Trails%20IOS%20App/Swift%20App/LeopardTrails/LeopardTrails/LepordCameraViewController.swift"
+                  timestampString = "587062610.289291"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeopardTrails.LepordCameraViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; LeopardTrails.LepordCameraViewController"
+                  moduleName = "LeopardTrails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cdushmantha/Documents/code/github/Leopard%20Trails%20IOS%20App/Swift%20App/LeopardTrails/LeopardTrails/LepordCameraViewController.swift"
+                  timestampString = "587062610.29049"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeopardTrails.LepordCameraViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;LeopardTrails.LepordCameraViewController&gt;"
+                  moduleName = "LeopardTrails"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cdushmantha/Documents/code/github/Leopard%20Trails%20IOS%20App/Swift%20App/LeopardTrails/LeopardTrails/LepordCameraViewController.swift"
+                  timestampString = "587062610.291804"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeopardTrails/LepordCameraViewController.swift"
+            timestampString = "587992628.732697"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeopardTrails/CropViewController.swift"
+            timestampString = "588083007.350475"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "getTopMostViewController()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeopardTrails/CropViewController.swift"
+            timestampString = "588083007.350538"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "didGetCroppedImage(image:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
